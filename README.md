@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FinAPP — Async NSE CSV Analytics (Local-only)
 
 FinAPP is a modern, fully asynchronous Node.js + React app for NSE stock analytics using only local CSV files. No external APIs are used.
@@ -82,3 +83,6 @@ Expose via a LoadBalancer/Ingress as needed. Set Secret values to your cluster p
 - No synchronous I/O anywhere; streams are used end-to-end.
 - All stock CSV paths are derived dynamically from the manifest symbol and `ROOT_PATH`.
 - Schema variations tolerated; absent stocks/files are skipped without failing whole requests.
+=======
+# Stock-Dashboard
+>>>>>>> 6ddf99a487c96ab90690b12b315d848af07a760b
