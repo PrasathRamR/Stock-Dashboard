@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: finapp-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: finapp-frontend
+  template:
+    metadata:
+      labels:
+        app: finapp-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: finapp:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 4000
+          env:
+            - name: ROOT_PATH
+              valueFrom:
+                secretKeyRef:
+                  name: finapp-env
+                  key: ROOT_PATH
+            - name: MANIFEST_PATH
+              valueFrom:
+                secretKeyRef:
+                  name: finapp-env
+                  key: MANIFEST_PATH
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: finapp-frontend-svc
+spec:
+  selector:
+    app: finapp-frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 4000
+
+
