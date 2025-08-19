@@ -98,17 +98,34 @@ export async function computeTopFive(manifestSymbols) {
 }
 
 export async function computeAnalyticsGrid(manifestSymbols) {
-  const sample = manifestSymbols.slice(0, 120);
+
   const concurrency = 12;
-  const loaded = [];
-  for (let i = 0; i < sample.length; i += concurrency) {
-    const batch = sample.slice(i, i + concurrency);
+  // Cache for first 750 stocks
+  const firstBatch = manifestSymbols.slice(0, 750);
+  const loadedFirst = [];
+  for (let i = 0; i < firstBatch.length; i += concurrency) {
+    const batch = firstBatch.slice(i, i + concurrency);
     const part = await Promise.all(batch.map(async (s) => {
       const ts = await readStockTimeseries(s.symbol);
       return { s, ts };
     }));
-    loaded.push(...part);
+    loadedFirst.push(...part);
   }
+
+  // Load next 750 stocks
+  const secondBatch = manifestSymbols.slice(750, 1500);
+  const loadedSecond = [];
+  for (let i = 0; i < secondBatch.length; i += concurrency) {
+    const batch = secondBatch.slice(i, i + concurrency);
+    const part = await Promise.all(batch.map(async (s) => {
+      const ts = await readStockTimeseries(s.symbol);
+      return { s, ts };
+    }));
+    loadedSecond.push(...part);
+  }
+
+  // Merge both batches
+  const loaded = [...loadedFirst, ...loadedSecond];
 
   const sectorPerf = new Map();
   for (const { s, ts } of loaded) {
@@ -147,11 +164,32 @@ export async function computeAnalyticsGrid(manifestSymbols) {
     .sort((a, b) => b.profitPercent - a.profitPercent)
     .slice(0, 10);
 
+  // Calculate 30-day profit percent for each stock
+  const thirtyDayResults = loaded.map(({ s, ts }) => {
+    if (!ts || ts.length < 2) return null;
+    const last30 = ts.slice(-30);
+    if (last30.length < 2) return null;
+    const first = last30[0];
+    const last = last30[last30.length - 1];
+    if (first.close == null || last.close == null) return null;
+    const profitPercent = ((last.close - first.close) / first.close) * 100;
+    return { symbol: s.symbol, name: s.name, profitPercent };
+  }).filter(Boolean);
+
+  const thirtyDayGainers = [...thirtyDayResults]
+    .sort((a, b) => (b.profitPercent ?? -Infinity) - (a.profitPercent ?? -Infinity))
+    .slice(0, 5);
+  const thirtyDayLosers = [...thirtyDayResults]
+    .sort((a, b) => (a.profitPercent ?? Infinity) - (b.profitPercent ?? Infinity))
+    .slice(0, 5);
+
   return {
     sectorPerformance,
     volumeVolatility: volVol,
     sentimentEffect,
-    fundamentals
+    fundamentals,
+    thirtyDayGainers,
+    thirtyDayLosers
   };
 }
 

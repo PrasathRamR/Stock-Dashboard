@@ -1,1680 +1,1680 @@
-symbol,name,sector
-20MICRONS,20 Microns Limited,Chemicals
-21STCENMGM,21st Century Management Services Limited,Services
-3IINFOTECH,3i Infotech Limited,Information Technology
-3MINDIA,3M India Limited,Consumer Durables
-3PLAND,3P Land Holdings Limited,Real Estate
-5PAISA,5paisa Capital Limited,Financial Services
-63MOONS,63 moons technologies limited,Information Technology
-A2ZINFRA,A2Z Infra Engineering Limited,Construction
-AAKASH,Aakash Educational Services Limited,Consumer Services
-AARON,,
-AARTIDRUGS,Aarti Drugs Limited,Healthcare
-AARTIIND,Aarti Industries Limited,Chemicals
-AARTISURF,Aarti Surfactants Limited,Chemicals
-AARVEEDEN,,
-AARVI,,
-AAVAS,Aavas Financiers Limited,Financial Services
-ABAN,Aban Offshore Limited,Oil Gas & Consumable Fuels
-ABB,ABB India Limited,Capital Goods
-ABBOTINDIA,Abbott India Limited,Healthcare
-ABCAPITAL,Aditya Birla Capital Limited,Financial Services
-ABFRL,Aditya Birla Fashion and Retail Limited,Consumer Durables
-ABMINTLTD,,
-ACC,ACC Limited,Construction Materials
-ACCELYA,Accelya Solutions India Limited,Information Technology
-ACCURACY,,
-ACE,Action Construction Equipment Limited,Capital Goods
-ACRYSIL,Acrysil Limited,Consumer Durables
-ADANIENT,Adani Enterprises Limited,Metals & Mining
-ADANIGREEN,Adani Green Energy Limited,Power
-ADANIPORTS,Adani Ports and Special Economic Zone Limited,Services
-ADANIPOWER,Adani Power Limited,Power
-ADANITRANS,Adani Transmission Limited,Power
-ADFFOODS,ADF Foods Limited,Fast Moving Consumer Goods
-ADL,,
-ADORWELD,,
-ADROITINFO,,
-ADSL,,
-ADVANIHOTR,,
-ADVENZYMES,Advanced Enzyme Technologies Limited,Healthcare
-AEGISCHEM,,
-AFFLE,Affle India Limited,Information Technology
-AGARIND,,
-AGCNET,,
-AGRITECH,,
-AGROPHOS,,
-AHLADA,,
-AHLEAST,,
-AHLUCONT,,
-AHLWEST,,
-AIAENG,,
-AIRAN,,
-AJANTPHARM,Ajanta Pharma Limited,Healthcare
-AJMERA,Ajmera Realty & Infra India Limited,Real Estate
-AJOONI,,
-AKASH,,
-AKG,,
-AKSHARCHEM,,
-AKSHOPTFBR,,
-AKZOINDIA,Akzo Nobel India Limited,Chemicals
-ALANKIT,Alankit Limited,Financial Services
-ALBERTDAVD,Albert David Limited,Healthcare
-ALEMBICLTD,Alembic Limited,Healthcare
-ALICON,,
-ALKALI,,
-ALKEM,Alkem Laboratories Limited,Healthcare
-ALKYLAMINE,Alkyl Amines Chemicals Limited,Chemicals
-ALLCARGO,Allcargo Logistics Limited,Services
-ALLSEC,Allsec Technologies Limited,Information Technology
-ALMONDZ,,
-ALOKINDS,Alok Industries Limited,Textiles
-ALPA,,
-ALPHAGEO,,
-ALPSINDUS,,
-AMARAJABAT,Amara Raja Batteries Limited,Automobile and Auto Components
-AMBER,,
-AMBICAAGAR,,
-AMBIKCO,,
-AMBUJACEM,Ambuja Cements Limited,Construction Materials
-AMDIND,,
-AMJLAND,,
-AMRUTANJAN,Amrutanjan Health Care Limited,Healthcare
-ANANTRAJ,Anant Raj Limited,Real Estate
-ANDHRACEMT,,
-ANDHRAPAP,,
-ANDHRSUGAR,,
-ANGELBRKG,Angel Broking Limited,Financial Services
-ANIKINDS,,
-ANKITMETAL,,
-ANMOL,,
-ANSALAPI,Ansal Properties & Infrastructure Limited,Real Estate
-ANSALHSG,,
-ANUP,,
-ANURAS,,
-APARINDS,Apar Industries Limited,Capital Goods
-APCL,,
-APCOTEXIND,Apcotex Industries Limited,Chemicals
-APEX,,
-APLAPOLLO,APL Apollo Tubes Limited,Metals & Mining
-APLLTD,,
-APOLLO,Apollo Micro Systems Limited,Capital Goods
-APOLLOHOSP,Apollo Hospitals Enterprise Limited,Healthcare
-APOLLOPIPE,Apollo Pipes Limited,Construction Materials
-APOLLOTYRE,Apollo Tyres Limited,Automobile and Auto Components
-APOLSINHOT,,
-APTECHT,,
-ARCHIDPLY,,
-ARCHIES,Archies Limited,Consumer Durables
-ARENTERP,,
-ARIES,,
-ARIHANT,,
-ARIHANTCAP,,
-ARIHANTSUP,,
-ARMANFIN,,
-AROGRANITE,,
-ARROWGREEN,,
-ARSHIYA,Arshiya Limited,Services
-ARSSINFRA,,
-ARTEMISMED,,
-ARVEE,,
-ARVIND,Arvind Limited,Textiles
-ARVINDFASN,,
-ARVSMART,,
-ASAHIINDIA,Asahi India Glass Limited,Consumer Durables
-ASAHISONG,,
-ASAL,,
-ASALCBR,,
-ASHAPURMIN,,
-ASHIANA,Ashiana Housing Limited,Real Estate
-ASHIMASYN,,
-ASHOKA,Ashoka Buildcon Limited,Construction
-ASHOKLEY,Ashok Leyland Limited,Automobile and Auto Components
-ASIANHOTNR,,
-ASIANPAINT,Asian Paints Limited,Consumer Durables
-ASIANTILES,,
-ASPINWALL,,
-ASTEC,,
-ASTERDM,Aster DM Healthcare Limited,Healthcare
-ASTRAL,Astral Limited,Construction Materials
-ASTRAMICRO,,
-ASTRAZEN,,
-ASTRON,,
-ATFL,,
-ATGL,,
-ATLANTA,,
-ATUL,Atul Limited,Chemicals
-ATULAUTO,,
-AUBANK,AU Small Finance Bank Limited,Financial Services
-AURIONPRO,Aurionpro Solutions Limited,Information Technology
-AUROPHARMA,Aurobindo Pharma Limited,Healthcare
-AUSOMENT,,
-AUTOAXLES,Automotive Axles Limited,Automobile and Auto Components
-AUTOIND,,
-AVADHSUGAR,,
-AVANTIFEED,,
-AVTNPL,,
-AWHCL,,
-AXISBANK,Axis Bank Limited,Financial Services
-AXISCADES,,
-AYMSYNTEX,,
-BAFNAPH,,
-BAGFILMS,Balaji Telefilms Limited,Media Entertainment & Publication
-BAJAJ-AUTO,Bajaj Auto Limited,Automobile and Auto Components
-BAJAJCON,Bajaj Consumer Care Limited,Fast Moving Consumer Goods
-BAJAJELEC,,
-BAJAJFINSV,Bajaj Finserv Limited,Financial Services
-BAJAJHIND,,
-BAJAJHLDNG,,
-BAJFINANCE,Bajaj Finance Limited,Financial Services
-BALAJITELE,Balaji Telefilms Limited,Media Entertainment & Publication
-BALAMINES,,
-BALAXI,,
-BALKRISHNA,Balkrishna Industries Limited,Automobile and Auto Components
-BALKRISIND,Balkrishna Industries Limited,Automobile and Auto Components
-BALLARPUR,,
-BALMLAWRIE,,
-BALPHARMA,,
-BALRAMCHIN,Balrampur Chini Mills Limited,Fast Moving Consumer Goods
-BANARBEADS,,
-BANARISUG,,
-BANCOINDIA,,
-BANDHANBNK,Bandhan Bank Limited,Financial Services
-BANG,,
-BANKA,,
-BANKBARODA,Bank of Baroda,Financial Services
-BANKINDIA,Bank of India,Financial Services
-BANSWRAS,,
-BARBEQUE,,
-BARTRONICS,,
-BASF,BASF India Limited,Chemicals
-BASML,,
-BATAINDIA,Bata India Limited,Consumer Durables
-BAYERCROP,Bayer CropScience Limited,Chemicals
-BBL,,
-BBTC,,
-BCG,,
-BCLIND,,
-BCP,,
-BDL,Bharat Dynamics Limited,Capital Goods
-BEARDSELL,,
-BECTORFOOD,,
-BEDMUTHA,,
-BEL,Bharat Electronics Limited,Capital Goods
-BEML,BEML Limited,Capital Goods
-BEPL,,
-BERGEPAINT,Berger Paints India Limited,Consumer Durables
-BESTAGRO,,
-BFINVEST,,
-BFUTILITIE,,
-BGRENERGY,,
-BHAGERIA,,
-BHAGYANGR,,
-BHAGYAPROP,,
-BHANDARI,,
-BHARATFORG,Bharat Forge Limited,Automobile and Auto Components
-BHARATGEAR,,
-BHARATRAS,,
-BHARATWIRE,,
-BHARTIARTL,Bharti Airtel Limited,Telecommunication
-BHEL,Bharat Heavy Electricals Limited,Capital Goods
-BIGBLOC,,
-BIL,,
-BINDALAGRO,,
-BIOCON,Biocon Limited,Healthcare
-BIOFILCHEM,,
-BIRLACABLE,,
-BIRLACORPN,,
-BIRLAMONEY,,
-BIRLATYRE,,
-BKMINDST,,
-BLBLIMITED,,
-BLISSGVS,,
-BLKASHYAP,,
-BLS,BLS International Services Limited,Services
-BLUECOAST,,
-BLUEDART,Blue Dart Express Limited,Services
-BLUESTARCO,Blue Star Limited,Consumer Durables
-BODALCHEM,,
-BOMDYEING,Bombay Dyeing & Manufacturing Company Limited,Textiles
-BOROLTD,,
-BORORENEW,,
-BOSCHLTD,Bosch Limited,Automobile and Auto Components
-BPCL,Bharat Petroleum Corporation Limited,Oil Gas & Consumable Fuels
-BPL,BPL Limited,Consumer Durables
-BRFL,,
-BRIGADE,Brigade Enterprises Limited,Real Estate
-BRITANNIA,Britannia Industries Limited,Fast Moving Consumer Goods
-BRNL,,
-BROOKS,,
-BSE,BSE Limited,Financial Services
-BSELINFRA,,
-BSHSL,,
-BSL,,
-BSOFT,,
-BURGERKING,Restaurant Brands Asia Limited,Consumer Services
-BUTTERFLY,Butterfly Gandhimathi Appliances Limited,Consumer Durables
-BVCL,,
-BYKE,,
-CADILAHC,Cadila Healthcare Limited,Healthcare
-CALSOFT,,
-CAMLINFINE,Camlin Fine Sciences Limited,Chemicals
-CAMS,Computer Age Management Services Limited,Financial Services
-CANBK,Canara Bank,Financial Services
-CANDC,,
-CANFINHOME,Can Fin Homes Limited,Financial Services
-CANTABIL,Cantabil Retail India Limited,Consumer Durables
-CAPACITE,,
-CAPLIPOINT,Caplin Point Laboratories Limited,Healthcare
-CAPTRUST,,
-CARBORUNIV,Carborundum Universal Limited,Capital Goods
-CAREERP,,
-CARERATING,Care Ratings Limited,Financial Services
-CASTROLIND,Castrol India Limited,Oil Gas & Consumable Fuels
-CCCL,,
-CCHHL,,
-CCL,CCL Products India Limited,Fast Moving Consumer Goods
-CDSL,Central Depository Services India Limited,Financial Services
-CEATLTD,CEAT Limited,Automobile and Auto Components
-CEBBCO,,
-CELEBRITY,,
-CENTENKA,,
-CENTEXT,,
-CENTRALBK,Central Bank of India,Financial Services
-CENTRUM,Centrum Capital Limited,Financial Services
-CENTUM,,
-CENTURYPLY,Century Plyboards India Limited,Consumer Durables
-CENTURYTEX,Century Textiles & Industries Limited,Textiles
-CERA,Cera Sanitaryware Limited,Consumer Durables
-CEREBRAINT,,
-CESC,CESC Limited,Power
-CGCL,,
-CGPOWER,CG Power and Industrial Solutions Limited,Capital Goods
-CHALET,,
-CHAMBLFERT,Chambal Fertilizers & Chemicals Limited,Chemicals
-CHEMBOND,,
-CHEMCON,,
-CHEMFAB,,
-CHENNPETRO,Chennai Petroleum Corporation Limited,Oil Gas & Consumable Fuels
-CHOLAFIN,Cholamandalam Investment and Finance Company Limited,Financial Services
-CHOLAHLDNG,Cholamandalam Financial Holdings Limited,Financial Services
-CIGNITITEC,,
-CINELINE,,
-CINEVISTA,,
-CIPLA,Cipla Limited,Healthcare
-CLEDUCATE,,
-CLNINDIA,,
-CLSEL,,
-CMICABLES,,
-COALINDIA,Coal India Limited,Metals & Mining
-COCHINSHIP,Cochin Shipyard Limited,Capital Goods
-COFFEEDAY,Coffee Day Enterprises Limited,Consumer Services
-COFORGE,Coforge Limited,Information Technology
-COLPAL,Colgate Palmolive India Limited,Fast Moving Consumer Goods
-COMPINFO,,
-COMPUSOFT,,
-CONCOR,Container Corporation of India Limited,Services
-CONFIPET,,
-CONSOFINVT,,
-CONTROLPR,,
-CORALFINAC,,
-CORDSCABLE,,
-COROMANDEL,Coromandel International Limited,Chemicals
-COSMOFILMS,Cosmo Films Limited,Chemicals
-COUNCODOS,,
-COX&KINGS,Cox & Kings Limited,Consumer Services
-CRAFTSMAN,,
-CREATIVE,,
-CREATIVEYE,,
-CREDITACC,,
-CREST,,
-CRISIL,CRISIL Limited,Financial Services
-CROMPTON,Crompton Greaves Consumer Electricals Limited,Consumer Durables
-CSBBANK,,
-CTE,,
-CUB,City Union Bank Limited,Financial Services
-CUBEXTUB,,
-CUMMINSIND,Cummins India Limited,Capital Goods
-CUPID,Cupid Limited,Healthcare
-CYBERMEDIA,,
-CYBERTECH,,
-CYIENT,Cyient Limited,Information Technology
-DAAWAT,LT Foods Limited,Fast Moving Consumer Goods
-DABUR,Dabur India Limited,Fast Moving Consumer Goods
-DALALSTCOM,,
-DALBHARAT,Dalmia Bharat Limited,Construction Materials
-DALMIASUG,,
-DAMODARIND,,
-DANGEE,,
-DATAMATICS,Datamatics Global Services Limited,Information Technology
-DBCORP,,
-DBL,,
-DBREALTY,,
-DBSTOCKBRO,,
-DCAL,,
-DCBBANK,DCB Bank Limited,Financial Services
-DCM,,
-DCMFINSERV,,
-DCMNVL,,
-DCMSHRIRAM,,
-DCW,,
-DECCANCE,,
-DEEPAKFERT,,
-DEEPAKNTR,Deepak Nitrite Limited,Chemicals
-DEEPENR,,
-DEEPINDS,,
-DELTACORP,Delta Corp Limited,Consumer Services
-DELTAMAGNT,,
-DEN,,
-DENORA,,
-DFMFOODS,,
-DGCONTENT,,
-DHAMPURSUG,,
-DHANBANK,,
-DHANI,,
-DHANUKA,Dhanuka Agritech Limited,Chemicals
-DHARSUGAR,,
-DHUNINV,,
-DIAMONDYD,,
-DIAPOWER,,
-DICIND,,
-DIGISPICE,,
-DISHTV,Dish TV India Limited,Media Entertainment & Publication
-DIVISLAB,Divi's Laboratories Limited,Healthcare
-DIXON,Dixon Technologies India Limited,Consumer Durables
-DLF,DLF Limited,Real Estate
-DLINKINDIA,,
-DMART,Avenue Supermarts Limited,Consumer Services
-DNAMEDIA,,
-DODLA,Dodla Dairy Limited,Fast Moving Consumer Goods
-DOLAT,,
-DOLLAR,Dollar Industries Limited,Consumer Durables
-DONEAR,,
-DPABHUSHAN,,
-DPSCLTD,,
-DPWIRES,,
-DRCSYSTEMS,,
-DREDGECORP,,
-DRREDDY,Dr. Reddy's Laboratories Limited,Healthcare
-DSSL,,
-DTIL,,
-DUCON,,
-DVL,,
-DWARKESH,,
-DYNAMATECH,,
-DYNPRO,,
-EASEMYTRIP,Easy Trip Planners Limited,Consumer Services
-EASTSILK,,
-EASUNREYRL,,
-EBIXFOREX,,
-ECLERX,eClerx Services Limited,Information Technology
-EDELWEISS,Edelweiss Financial Services Limited,Financial Services
-EDUCOMP,,
-EICHERMOT,Eicher Motors Limited,Automobile and Auto Components
-EIDPARRY,EID Parry India Limited,Fast Moving Consumer Goods
-EIHAHOTELS,,
-EIHOTEL,,
-EIMCOELECO,,
-EKC,,
-ELECON,,
-ELECTCAST,,
-ELECTHERM,,
-ELGIEQUIP,Elgi Equipments Limited,Capital Goods
-ELGIRUBCO,,
-EMAMILTD,Emami Limited,Fast Moving Consumer Goods
-EMAMIPAP,,
-EMAMIREAL,,
-EMCO,,
-EMKAY,,
-EMMBI,,
-ENDURANCE,Endurance Technologies Limited,Automobile and Auto Components
-ENERGYDEV,,
-ENGINERSIN,,
-ENIL,Entertainment Network India Limited,Media Entertainment & Publication
-EPL,Essel Propack Limited,Consumer Durables
-EQUITAS,Equitas Holdings Limited,Financial Services
-EQUITASBNK,Equitas Small Finance Bank Limited,Financial Services
-ERIS,Eris Lifesciences Limited,Healthcare
-EROSMEDIA,Eros International Media Limited,Media Entertainment & Publication
-ESABINDIA,,
-ESCORTS,Escorts Limited,Automobile and Auto Components
-ESSARSHPNG,,
-ESTER,,
-EUROTEXIND,,
-EVEREADY,Eveready Industries India Limited,Consumer Durables
-EVERESTIND,,
-EXCEL,,
-EXCELINDUS,,
-EXIDEIND,Exide Industries Limited,Automobile and Auto Components
-EXPLEOSOL,,
-FACT,Fertilizers and Chemicals Travancore Limited,Chemicals
-FAIRCHEMOR,,
-FCL,,
-FCONSUMER,,
-FCSSOFT,,
-FDC,FDC Limited,Healthcare
-FEDERALBNK,Federal Bank Limited,Financial Services
-FEL,,
-FELDVR,,
-FIEMIND,,
-FILATEX,,
-FINCABLES,,
-FINEORG,,
-FINPIPE,,
-FLEXITUFF,,
-FLFL,,
-FLUOROCHEM,,
-FMGOETZE,,
-FMNL,,
-FORCEMOT,Force Motors Limited,Automobile and Auto Components
-FORTIS,Fortis Healthcare Limited,Healthcare
-FOSECOIND,,
-FRETAIL,Future Retail Limited,Consumer Services
-FSC,,
-FSL,,
-GABRIEL,Gabriel India Limited,Automobile and Auto Components
-GAEL,,
-GAIL,GAIL India Limited,Oil Gas & Consumable Fuels
-GAL,,
-GALAXYSURF,,
-GALLANTT,,
-GALLISPAT,,
-GAMMNINFRA,,
-GANDHITUBE,,
-GANECOS,,
-GANESHHOUC,,
-GANGAFORGE,,
-GANGESSECU,,
-GARFIBRES,,
-GATI,GATI Limited,Services
-GAYAHWS,,
-GAYAPROJ,,
-GDL,,
-GEECEE,,
-GEEKAYWIRE,,
-GENCON,,
-GENESYS,,
-GENUSPAPER,,
-GENUSPOWER,,
-GEOJITFSL,,
-GEPIL,,
-GESHIP,,
-GET&D,,
-GFLLIMITED,,
-GFSTEELS,,
-GHCL,GHCL Limited,Chemicals
-GICHSGFIN,,
-GICRE,,
-GILLANDERS,,
-GILLETTE,Gillette India Limited,Fast Moving Consumer Goods
-GINNIFILA,,
-GIPCL,,
-GKWLIMITED,,
-GLAND,Gland Pharma Limited,Healthcare
-GLAXO,GlaxoSmithKline Pharmaceuticals Limited,Healthcare
-GLENMARK,Glenmark Pharmaceuticals Limited,Healthcare
-GLFL,,
-GLOBAL,,
-GLOBALVECT,,
-GLOBE,,
-GLOBUSSPR,,
-GMBREW,,
-GMDCLTD,,
-GMMPFAUDLR,,
-GMRINFRA,GMR Infrastructure Limited,Construction
-GNA,,
-GNFC,Gujarat Narmada Valley Fertilizers & Chemicals Limited,Chemicals
-GOACARBON,,
-GOCLCORP,,
-GODFRYPHLP,Godrej Consumer Products Limited,Fast Moving Consumer Goods
-GODHA,,
-GODREJAGRO,Godrej Agrovet Limited,Fast Moving Consumer Goods
-GODREJCP,Godrej Consumer Products Limited,Fast Moving Consumer Goods
-GODREJIND,Godrej Industries Limited,Chemicals
-GODREJPROP,Godrej Properties Limited,Real Estate
-GOENKA,,
-GOKEX,,
-GOKUL,,
-GOKULAGRO,,
-GOLDENTOBC,,
-GOLDIAM,,
-GOLDTECH,,
-GOODLUCK,,
-GOODYEAR,Goodyear India Limited,Automobile and Auto Components
-GPIL,,
-GPPL,,
-GPTINFRA,,
-GRANULES,Granules India Limited,Healthcare
-GRAPHITE,Graphite India Limited,Capital Goods
-GRASIM,Grasim Industries Limited,Chemicals
-GRAVITA,,
-GREAVESCOT,,
-GREENLAM,,
-GREENPANEL,,
-GREENPLY,,
-GREENPOWER,,
-GRINDWELL,Grindwell Norton Limited,Capital Goods
-GROBTEA,,
-GRPLTD,,
-GRSE,Garden Reach Shipbuilders & Engineers Limited,Capital Goods
-GSCLCEMENT,,
-GSFC,Gujarat State Fertilizers & Chemicals Limited,Chemicals
-GSPL,,
-GSS,,
-GTL,GTL Limited,Telecommunication
-GTLINFRA,,
-GTNTEX,,
-GTPL,GTPL Hathway Limited,Telecommunication
-GUFICBIO,,
-GUJALKALI,Gujarat Alkalies and Chemicals Limited,Chemicals
-GUJAPOLLO,,
-GUJGASLTD,,
-GUJRAFFIA,,
-GULFOILLUB,,
-GULFPETRO,,
-GULPOLY,,
-HAL,Hindustan Aeronautics Limited,Capital Goods
-HAPPSTMNDS,Happiest Minds Technologies Limited,Information Technology
-HARRMALAYA,,
-HATHWAY,Hathway Cable & Datacom Limited,Telecommunication
-HATSUN,Hatsun Agro Product Limited,Fast Moving Consumer Goods
-HAVELLS,Havells India Limited,Consumer Durables
-HAVISHA,,
-HBLPOWER,,
-HBSL,,
-HCC,Hindustan Construction Company Limited,Construction
-HCG,HealthCare Global Enterprises Limited,Healthcare
-HCL-INSYS,,
-HCLTECH,HCL Technologies Limited,Information Technology
-HDFC,Housing Development Finance Corporation Limited,Financial Services
-HDFCAMC,HDFC Asset Management Company Limited,Financial Services
-HDFCBANK,HDFC Bank Limited,Financial Services
-HDFCLIFE,HDFC Life Insurance Company Limited,Financial Services
-HDIL,,
-HEG,HEG Limited,Capital Goods
-HEIDELBERG,HeidelbergCement India Limited,Construction Materials
-HEMIPROP,,
-HERANBA,,
-HERCULES,,
-HERITGFOOD,Heritage Foods Limited,Fast Moving Consumer Goods
-HEROMOTOCO,Hero MotoCorp Limited,Automobile and Auto Components
-HESTERBIO,,
-HEXATRADEX,,
-HFCL,HFCL Limited,Telecommunication
-HGINFRA,,
-HGS,HGS Limited,Information Technology
-HIKAL,Hikal Limited,Chemicals
-HIL,HIL Limited,Construction Materials
-HILTON,,
-HIMATSEIDE,,
-HINDALCO,Hindalco Industries Limited,Metals & Mining
-HINDCOMPOS,,
-HINDCON,,
-HINDCOPPER,,
-HINDMOTORS,,
-HINDNATGLS,,
-HINDOILEXP,,
-HINDPETRO,Hindustan Petroleum Corporation Limited,Oil Gas & Consumable Fuels
-HINDUNILVR,Hindustan Unilever Limited,Fast Moving Consumer Goods
-HINDZINC,Hindustan Zinc Limited,Metals & Mining
-HIRECT,,
-HISARMETAL,,
-HITECH,,
-HITECHCORP,,
-HITECHGEAR,,
-HLEGLAS,,
-HLVLTD,,
-HMT,HMT Limited,Consumer Durables
-HMVL,,
-HNDFDS,,
-HOMEFIRST,Home First Finance Company India Limited,Financial Services
-HONAUT,,
-HONDAPOWER,,
-HOTELRUGBY,,
-HOVS,,
-HPL,HPL Electric & Power Limited,Consumer Durables
-HSCL,,
-HSIL,HSIL Limited,Consumer Durables
-HTMEDIA,HT Media Limited,Media Entertainment & Publication
-HUBTOWN,,
-HUDCO,Housing and Urban Development Corporation Limited,Financial Services
-HUHTAMAKI,Huhtamaki India Limited,Consumer Durables
-IBREALEST,,
-IBULHSGFIN,Indiabulls Housing Finance Limited,Financial Services
-ICDSLTD,,
-ICEMAKE,,
-ICICIBANK,ICICI Bank Limited,Financial Services
-ICICIGI,ICICI Lombard General Insurance Company Limited,Financial Services
-ICICIPRULI,ICICI Prudential Life Insurance Company Limited,Financial Services
-ICIL,,
-ICRA,ICRA Limited,Financial Services
-IDBI,IDBI Bank Limited,Financial Services
-IDEA,Vodafone Idea Limited,Telecommunication
-IDFC,IDFC Limited,Financial Services
-IDFCFIRSTB,IDFC First Bank Limited,Financial Services
-IEX,Indian Energy Exchange Limited,Power
-IFBAGRO,,
-IFBIND,,
-IFCI,Indian Financial Technology & Allied Services Limited,Financial Services
-IFGLEXPOR,,
-IGARASHI,,
-IGL,Indraprastha Gas Limited,Oil Gas & Consumable Fuels
-IGPL,,
-IIFL,India Infoline Limited,Financial Services
-IIFLSEC,,
-IIFLWAM,,
-IITL,,
-IL&FSENGG,,
-IL&FSTRANS,,
-IMAGICAA,,
-IMFA,,
-IMPAL,,
-INCREDIBLE,,
-INDBANK,IndusInd Bank Limited,Financial Services
-INDHOTEL,,
-INDIACEM,The India Cements Limited,Construction Materials
-INDIAGLYCO,,
-INDIAMART,IndiaMART InterMESH Limited,Consumer Services
-INDIANB,Indian Bank,Financial Services
-INDIANCARD,,
-INDIANHUME,,
-INDIGO,InterGlobe Aviation Limited,Services
-INDIGOPNTS,,
-INDLMETER,,
-INDNIPPON,,
-INDOCO,Indoco Remedies Limited,Healthcare
-INDORAMA,,
-INDOSOLAR,,
-INDOSTAR,IndoStar Capital Finance Limited,Financial Services
-INDOTECH,,
-INDOTHAI,,
-INDOWIND,,
-INDRAMEDCO,,
-INDSWFTLAB,,
-INDTERRAIN,,
-INDUSINDBK,IndusInd Bank Limited,Financial Services
-INDUSTOWER,Indus Towers Limited,Telecommunication
-INEOSSTYRO,,
-INFIBEAM,Infibeam Avenues Limited,Information Technology
-INFOBEAN,,
-INFOMEDIA,,
-INFY,Infosys Limited,Information Technology
-INGERRAND,,
-INOXLEISUR,INOX Leisure Limited,Consumer Services
-INOXWIND,,
-INSECTICID,,
-INSPIRISYS,,
-INTELLECT,Intellect Design Arena Limited,Information Technology
-INTENTECH,,
-INVENTURE,,
-IOB,Indian Overseas Bank,Financial Services
-IOC,Indian Oil Corporation Limited,Oil Gas & Consumable Fuels
-IOLCP,,
-IPCALAB,IPCA Laboratories Limited,Healthcare
-IPL,Indian Petrochemicals Corporation Limited,Chemicals
-IRB,IRB Infrastructure Developers Limited,Construction
-IRCON,IRCON International Limited,Construction
-IRCTC,Indian Railway Catering and Tourism Corporation Limited,Services
-IRFC,Indian Railway Finance Corporation Limited,Financial Services
-IRISDOREME,,
-ISEC,IIFL Securities Limited,Financial Services
-ISFT,,
-ISGEC,,
-ISMTLTD,,
-ITC,ITC Limited,Fast Moving Consumer Goods
-ITDC,India Tourism Development Corporation Limited,Consumer Services
-ITDCEM,,
-ITI,ITI Limited,Telecommunication
-IVC,,
-IVP,,
-IWEL,,
-IZMO,,
-J&KBANK,Jammu & Kashmir Bank Limited,Financial Services
-JAGRAN,Jagran Prakashan Limited,Media Entertainment & Publication
-JAGSNPHARM,,
-JAIBALAJI,,
-JAICORPLTD,,
-JAINSTUDIO,,
-JAMNAAUTO,,
-JASH,,
-JAYAGROGN,,
-JAYBARMARU,,
-JAYNECOIND,,
-JAYSREETEA,,
-JBCHEPHARM,,
-JBFIND,,
-JBMA,,
-JCHAC,,
-JETAIRWAYS,,
-JHS,,
-JINDALPHOT,,
-JINDALPOLY,,
-JINDALSAW,,
-JINDALSTEL,Jindal Steel & Power Limited,Metals & Mining
-JINDRILL,,
-JINDWORLD,,
-JISLDVREQS,,
-JISLJALEQS,,
-JITFINFRA,,
-JIYAECO,,
-JKCEMENT,JK Cement Limited,Construction Materials
-JKIL,,
-JKLAKSHMI,JK Lakshmi Cement Limited,Construction Materials
-JKPAPER,JK Paper Limited,Consumer Durables
-JKTYRE,JK Tyre & Industries Limited,Automobile and Auto Components
-JMA,,
-JMCPROJECT,,
-JMFINANCIL,,
-JMTAUTOLTD,,
-JOCIL,,
-JPASSOCIAT,,
-JPINFRATEC,,
-JPPOWER,,
-JSL,Jindal Stainless Limited,Metals & Mining
-JSLHISAR,,
-JSWENERGY,JSW Energy Limited,Power
-JSWHL,,
-JSWISPL,,
-JSWSTEEL,JSW Steel Limited,Metals & Mining
-JTEKTINDIA,,
-JUBLFOOD,Jubilant FoodWorks Limited,Consumer Services
-JUBLINDS,,
-JUBLINGREA,,
-JUBLPHARMA,Jubilant Pharmova Limited,Healthcare
-JUMPNET,,
-JUSTDIAL,Just Dial Limited,Consumer Services
-JYOTHYLAB,Jyothy Labs Limited,Fast Moving Consumer Goods
-JYOTISTRUC,,
-KABRAEXTRU,,
-KAJARIACER,Kajaria Ceramics Limited,Consumer Durables
-KAKATCEM,,
-KALPATPOWR,Kalpataru Power Transmission Limited,Power
-KALYANI,,
-KALYANIFRG,,
-KALYANKJIL,,
-KAMATHOTEL,,
-KAMDHENU,,
-KANANIIND,,
-KANORICHEM,,
-KANPRPLA,,
-KANSAINER,,
-KAPSTON,,
-KARDA,,
-KARMAENG,,
-KARURVYSYA,Karur Vysya Bank Limited,Financial Services
-KAUSHALYA,,
-KAYA,Kaya Limited,Consumer Services
-KCP,KCP Limited,Chemicals
-KCPSUGIND,,
-KDDL,,
-KEC,KEC International Limited,Construction
-KECL,,
-KEERTI,,
-KEI,KEI Industries Limited,Capital Goods
-KELLTONTEC,,
-KENNAMET,,
-KERNEX,,
-KESORAMIND,,
-KEYFINSERV,,
-KHADIM,,
-KHAICHEM,,
-KHANDSE,,
-KICL,,
-KILITCH,,
-KIMS,Krishna Institute of Medical Sciences Limited,Healthcare
-KINGFA,,
-KIOCL,,
-KIRIINDUS,,
-KIRLFER,,
-KIRLOSBROS,,
-KIRLOSENG,,
-KIRLOSIND,,
-KITEX,,
-KKCL,,
-KMSUGAR,,
-KNRCON,KNR Constructions Limited,Construction
-KOKUYOCMLN,,
-KOLTEPATIL,Kolte-Patil Developers Limited,Real Estate
-KOPRAN,Kopran Limited,Healthcare
-KOTAKBANK,Kotak Mahindra Bank Limited,Financial Services
-KOTARISUG,,
-KOTHARIPET,,
-KOTHARIPRO,,
-KPITTECH,KPIT Technologies Limited,Information Technology
-KPRMILL,KPR Mill Limited,Textiles
-KRBL,KRBL Limited,Fast Moving Consumer Goods
-KREBSBIO,,
-KRIDHANINF,,
-KRISHANA,,
-KSB,KSB Limited,Capital Goods
-KSCL,,
-KSL,,
-KTKBANK,Karnataka Bank Limited,Financial Services
-KUANTUM,,
-L&TFH,L&T Finance Holdings Limited,Financial Services
-LAKPRE,,
-LALPATHLAB,Dr. Lal Pathlabs Limited,Healthcare
-LAMBODHARA,,
-LAOPALA,,
-LASA,,
-LAURUSLABS,Laurus Labs Limited,Healthcare
-LAXMIMACH,,
-LCCINFOTEC,,
-LEMONTREE,Lemon Tree Hotels Limited,Consumer Services
-LFIC,,
-LGBBROSLTD,,
-LGBFORGE,,
-LIBAS,,
-LIBERTSHOE,,
-LICHSGFIN,LIC Housing Finance Limited,Financial Services
-LIKHITHA,,
-LINCOLN,,
-LINCPEN,,
-LINDEINDIA,,
-LODHA,Macrotech Developers Limited,Real Estate
-LOKESHMACH,,
-LOTUSEYE,,
-LOVABLE,,
-LPDC,,
-LSIL,,
-LT,Larsen & Toubro Limited,Construction
-LTI,Larsen & Toubro Infotech Limited,Information Technology
-LTTS,L&T Technology Services Limited,Information Technology
-LUMAXIND,,
-LUMAXTECH,,
-LUPIN,Lupin Limited,Healthcare
-LUXIND,,
-LXCHEM,,
-LYKALABS,,
-LYPSAGEMS,,
-M&M,Mahindra & Mahindra Limited,Automobile and Auto Components
-M&MFIN,Mahindra & Mahindra Financial Services Limited,Financial Services
-MAANALU,,
-MACPOWER,,
-MADHAV,,
-MADHUCON,,
-MADRASFERT,,
-MAGADSUGAR,,
-MAGMA,,
-MAGNUM,,
-MAHABANK,Bank of Maharashtra,Financial Services
-MAHAPEXLTD,,
-MAHASTEEL,,
-MAHEPC,,
-MAHESHWARI,,
-MAHINDCIE,,
-MAHLIFE,,
-MAHLOG,,
-MAHSCOOTER,,
-MAHSEAMLES,,
-MAITHANALL,,
-MAJESCO,,
-MALUPAPER,,
-MANAKALUCO,,
-MANAKCOAT,,
-MANAKSIA,,
-MANAKSTEEL,,
-MANALIPETC,,
-MANAPPURAM,Manappuram Finance Limited,Financial Services
-MANGALAM,,
-MANGCHEFER,,
-MANGLMCEM,,
-MANGTIMBER,,
-MANINDS,,
-MANINFRA,,
-MANUGRAPH,,
-MARALOVER,,
-MARATHON,,
-MARICO,Marico Limited,Fast Moving Consumer Goods
-MARINE,,
-MARKSANS,Marksans Pharma Limited,Healthcare
-MARUTI,Maruti Suzuki India Limited,Automobile and Auto Components
-MASFIN,,
-MASKINVEST,,
-MASTEK,Mastek Limited,Information Technology
-MATRIMONY,Matrimony.com Limited,Consumer Services
-MAWANASUG,,
-MAXHEALTH,Max Healthcare Institute Limited,Healthcare
-MAXIND,,
-MAXVIL,,
-MAYURUNIQ,,
-MAZDA,,
-MAZDOCK,,
-MBAPL,,
-MBECL,,
-MBLINFRA,,
-MCDHOLDING,,
-MCDOWELL-N,United Breweries Limited,Fast Moving Consumer Goods
-MCL,,
-MCLEODRUSS,,
-MCX,Multi Commodity Exchange of India Limited,Financial Services
-MEGASOFT,,
-MELSTAR,,
-MENONBE,,
-MEP,,
-MERCATOR,,
-METALFORGE,,
-METROPOLIS,Metropolis Healthcare Limited,Healthcare
-MFSL,Max Financial Services Limited,Financial Services
-MGEL,,
-MGL,Mahanagar Gas Limited,Oil Gas & Consumable Fuels
-MHRIL,,
-MIDHANI,,
-MINDACORP,,
-MINDAIND,,
-MINDTECK,,
-MINDTREE,Mindtree Limited,Information Technology
-MIRCELECTR,,
-MIRZAINT,,
-MITTAL,,
-MMFL,,
-MMP,,
-MMTC,MMTC Limited,Services
-MODIRUBBER,,
-MODISNME,,
-MOHITIND,,
-MOHOTAIND,,
-MOIL,MOIL Limited,Metals & Mining
-MOKSH,,
-MOLDTECH,,
-MOLDTKPAC,,
-MONTECARLO,,
-MORARJEE,,
-MOREPENLAB,,
-MOTHERSUMI,Motherson Sumi Systems Limited,Automobile and Auto Components
-MOTILALOFS,Motilal Oswal Financial Services Limited,Financial Services
-MOTOGENFIN,,
-MPHASIS,Mphasis Limited,Information Technology
-MPSLTD,,
-MRF,MRF Limited,Automobile and Auto Components
-MRO-TEK,,
-MRPL,Mangalore Refinery and Petrochemicals Limited,Oil Gas & Consumable Fuels
-MSPL,,
-MSTCLTD,,
-MTARTECH,,
-MTEDUCARE,,
-MTNL,Mahanagar Telephone Nigam Limited,Telecommunication
-MUKANDLTD,,
-MUKTAARTS,,
-MUNJALAU,,
-MUNJALSHOW,,
-MURUDCERA,,
-MUTHOOTCAP,,
-MUTHOOTFIN,Muthoot Finance Limited,Financial Services
-NACLIND,,
-NAGAFERT,,
-NAGREEKCAP,,
-NAGREEKEXP,,
-NAHARCAP,,
-NAHARINDUS,,
-NAHARPOLY,,
-NAHARSPING,,
-NAM-INDIA,,
-NATCOPHARM,Natco Pharma Limited,Healthcare
-NATHBIOGEN,,
-NATIONALUM,National Aluminium Company Limited,Metals & Mining
-NAUKRI,Info Edge India Limited,Consumer Services
-NAVINFLUOR,Navin Fluorine International Limited,Chemicals
-NAVKARCORP,,
-NAVNETEDUL,,
-NAZARA,Nazara Technologies Limited,Media Entertainment & Publication
-NBCC,NBCC India Limited,Construction
-NBIFIN,,
-NBVENTURES,,
-NCC,NCC Limited,Construction
-NCLIND,,
-NDGL,,
-NDL,,
-NDRAUTO,,
-NDTV,New Delhi Television Limited,Media Entertainment & Publication
-NECCLTD,,
-NECLIFE,,
-NELCAST,,
-NELCO,,
-NEOGEN,,
-NESCO,,
-NESTLEIND,Nestlé India Limited,Fast Moving Consumer Goods
-NETWORK18,Network18 Media & Investments Limited,Media Entertainment & Publication
-NEULANDLAB,,
-NEWGEN,Newgen Software Technologies Limited,Information Technology
-NEXTMEDIA,,
-NFL,National Fertilizers Limited,Chemicals
-NH,,
-NHPC,NHPC Limited,Power
-NIACL,,
-NIBL,,
-NIITLTD,,
-NILAINFRA,,
-NILASPACES,,
-NILKAMAL,Nilkamal Limited,Consumer Durables
-NIPPOBATRY,,
-NIRAJ,,
-NIRAJISPAT,,
-NITCO,,
-NITINFIRE,,
-NITINSPIN,,
-NITIRAJ,,
-NKIND,,
-NLCINDIA,NLC India Limited,Power
-NMDC,NMDC Limited,Metals & Mining
-NOCIL,NOCIL Limited,Chemicals
-NOIDATOLL,,
-NORBTEAEXP,,
-NOVARTIND,,
-NRAIL,,
-NRBBEARING,,
-NSIL,,
-NTL,,
-NTPC,NTPC Limited,Power
-NUCLEUS,,
-NURECA,,
-NXTDIGITAL,,
-OAL,,
-OBEROIRLTY,Oberoi Realty Limited,Real Estate
-OCCL,,
-OFSS,Oracle Financial Services Software Limited,Information Technology
-OIL,Oil India Limited,Oil Gas & Consumable Fuels
-OILCOUNTUB,,
-OLECTRA,,
-OMAXAUTO,,
-OMAXE,Omaxe Limited,Real Estate
-OMINFRAL,,
-OMKARCHEM,,
-ONEPOINT,,
-ONGC,Oil & Natural Gas Corporation Limited,Oil Gas & Consumable Fuels
-ONMOBILE,,
-ONWARDTEC,,
-OPTIEMUS,,
-OPTOCIRCUI,,
-ORBTEXP,,
-ORCHPHARMA,,
-ORICONENT,,
-ORIENTABRA,,
-ORIENTALTL,,
-ORIENTBELL,,
-ORIENTCEM,,
-ORIENTELEC,,
-ORIENTHOT,,
-ORIENTLTD,,
-ORIENTPPR,,
-ORIENTREF,,
-ORISSAMINE,,
-ORTEL,,
-ORTINLAB,,
-OSWALAGRO,,
-PAEL,,
-PAGEIND,Page Industries Limited,Consumer Durables
-PAISALO,,
-PALASHSECU,,
-PALREDTEC,,
-PANACEABIO,,
-PANACHE,,
-PANAMAPET,,
-PARACABLES,,
-PARAGMILK,,
-PARSVNATH,Parsvnath Developers Limited,Real Estate
-PATELENG,,
-PATINTLOG,,
-PATSPINLTD,,
-PBAINFRA,,
-PCJEWELLER,PC Jeweller Limited,Consumer Durables
-PDMJEPAPER,,
-PDSMFL,,
-PEARLPOLY,,
-PEL,Piramal Enterprises Limited,Financial Services
-PENIND,,
-PENINLAND,,
-PERSISTENT,Persistent Systems Limited,Information Technology
-PETRONET,Petronet LNG Limited,Oil Gas & Consumable Fuels
-PFC,Power Finance Corporation Limited,Financial Services
-PFIZER,Pfizer Limited,Healthcare
-PFOCUS,,
-PFS,,
-PGEL,,
-PGHH,,
-PGHL,,
-PGIL,,
-PHILIPCARB,,
-PHOENIXLTD,,
-PIDILITIND,Pidilite Industries Limited,Chemicals
-PIIND,,
-PILANIINVS,,
-PILITA,,
-PIONDIST,,
-PIONEEREMB,,
-PITTIENG,,
-PKTEA,,
-PLASTIBLEN,,
-PNB,Punjab National Bank,Financial Services
-PNBGILTS,,
-PNBHOUSING,PNB Housing Finance Limited,Financial Services
-PNC,,
-PNCINFRA,,
-PODDARHOUS,,
-PODDARMENT,,
-POKARNA,,
-POLYCAB,Polycab India Limited,Capital Goods
-POLYMED,,
-POLYPLEX,,
-PONNIERODE,,
-POWERGRID,Power Grid Corporation of India Limited,Power
-POWERINDIA,,
-POWERMECH,,
-PPAP,,
-PPL,,
-PRAENG,,
-PRAJIND,,
-PRAKASH,,
-PRAKASHSTL,,
-PRAXIS,,
-PRECAM,,
-PRECOT,,
-PRECWIRE,,
-PREMEXPLN,,
-PREMIER,,
-PREMIERPOL,,
-PRESSMN,,
-PRESTIGE,Prestige Estates Projects Limited,Real Estate
-PRICOLLTD,,
-PRIMESECU,,
-PRINCEPIPE,,
-PRIVISCL,,
-PROINDIA,,
-PROZONINTU,,
-PRSMJOHNSN,,
-PSB,Punjab & Sind Bank,Financial Services
-PSPPROJECT,,
-PTC,PTC India Limited,Power
-PTL,,
-PUNJABCHEM,,
-PUNJLLOYD,,
-PURVA,,
-PVR,PVR Limited,Consumer Services
-QUESS,Quess Corp Limited,Services
-QUICKHEAL,Quick Heal Technologies Limited,Information Technology
-RADAAN,,
-RADICO,Radico Khaitan Limited,Fast Moving Consumer Goods
-RADIOCITY,,
-RAILTEL,Railtel Corporation of India Limited,Telecommunication
-RAIN,Rain Industries Limited,Chemicals
-RAJESHEXPO,,
-RAJMET,,
-RAJRATAN,,
-RAJRAYON,,
-RAJSREESUG,,
-RAJTV,,
-RALLIS,Rallis India Limited,Chemicals
-RAMANEWS,,
-RAMASTEEL,,
-RAMCOCEM,The Ramco Cements Limited,Construction Materials
-RAMCOIND,,
-RAMCOSYS,,
-RAMKY,,
-RANASUG,,
-RANEENGINE,,
-RANEHOLDIN,,
-RATNAMANI,,
-RAYMOND,Raymond Limited,Consumer Durables
-RBL,,
-RBLBANK,RBL Bank Limited,Financial Services
-RCF,Rashtriya Chemicals & Fertilizers Limited,Chemicals
-RCOM,Reliance Communications Limited,Telecommunication
-RECLTD,REC Limited,Financial Services
-REDINGTON,Redington India Limited,Consumer Durables
-REFEX,,
-RELAXO,Relaxo Footwears Limited,Consumer Durables
-RELCAPITAL,Reliance Capital Limited,Financial Services
-RELIANCE,Reliance Industries Limited,Oil Gas & Consumable Fuels
-RELIGARE,Religare Enterprises Limited,Financial Services
-RELINFRA,Reliance Infrastructure Limited,Power
-REMSONSIND,,
-RENUKA,,
-REPCOHOME,,
-REPL,,
-REPRO,,
-RESPONIND,,
-REVATHI,,
-RGL,,
-RHFL,,
-RICOAUTO,,
-RIIL,,
-RITES,RITES Limited,Services
-RKDL,,
-RKEC,,
-RKFORGE,,
-RMCL,,
-RML,,
-RNAVAL,,
-ROHLTD,,
-ROLLT,,
-ROLTA,,
-ROML,,
-ROSSARI,,
-ROSSELLIND,,
-ROUTE,,
-RPGLIFE,,
-RPOWER,Reliance Power Limited,Power
-RPPINFRA,,
-RPSGVENT,,
-RSSOFTWARE,,
-RSWM,,
-RSYSTEMS,,
-RTNINDIA,,
-RTNPOWER,,
-RUBYMILLS,,
-RUCHI,,
-RUCHINFRA,,
-RUCHIRA,,
-RUPA,,
-RUSHIL,,
-RVHL,,
-RVNL,Rail Vikas Nigam Limited,Construction
-S&SPOWER,,
-SABEVENTS,,
-SADBHAV,,
-SADBHIN,,
-SAFARI,,
-SAGARDEEP,,
-SAGCEM,,
-SAIL,Steel Authority of India Limited,Metals & Mining
-SAKAR,,
-SAKHTISUG,,
-SAKSOFT,,
-SAKUMA,,
-SALASAR,,
-SALONA,,
-SALSTEEL,,
-SALZERELEC,,
-SAMBHAAV,,
-SANCO,,
-SANDESH,,
-SANDHAR,,
-SANGAMIND,,
-SANGHIIND,,
-SANGHVIMOV,,
-SANGINITA,,
-SANOFI,Sanofi India Limited,Healthcare
-SANWARIA,,
-SARDAEN,,
-SAREGAMA,Saregama India Limited,Media Entertainment & Publication
-SARLAPOLY,,
-SASKEN,,
-SASTASUNDR,,
-SATIA,,
-SATIN,,
-SBCL,,
-SBICARD,SBI Cards and Payment Services Limited,Financial Services
-SBILIFE,SBI Life Insurance Company Limited,Financial Services
-SBIN,State Bank of India,Financial Services
-SCAPDVR,,
-SCHAEFFLER,Schaeffler India Limited,Automobile and Auto Components
-SCHAND,,
-SCHNEIDER,Schneider Electric Infrastructure Limited,Capital Goods
-SCI,Shipping Corporation Of India Limited,Services
-SDBL,,
-SEAMECLTD,,
-SECURKLOUD,,
-SELAN,,
-SEPOWER,,
-SEQUENT,,
-SESHAPAPER,,
-SETCO,,
-SETUINFRA,,
-SEYAIND,,
-SFL,,
-SGL,,
-SHAKTIPUMP,,
-SHALBY,Shalby Limited,Healthcare
-SHALPAINTS,,
-SHANKARA,,
-SHANTIGEAR,,
-SHARDACROP,,
-SHARDAMOTR,,
-SHAREINDIA,,
-SHEMAROO,Shemaroo Entertainment Limited,Media Entertainment & Publication
-SHIL,,
-SHILPAMED,,
-SHIVAMAUTO,,
-SHIVAMILLS,,
-SHIVATEX,,
-SHK,,
-SHOPERSTOP,Shoppers Stop Limited,Consumer Services
-SHRADHA,,
-SHREDIGCEM,,
-SHREECEM,Shree Cement Limited,Construction Materials
-SHREEPUSHK,,
-SHREERAMA,,
-SHRENIK,,
-SHREYANIND,,
-SHREYAS,,
-SHRIPISTON,,
-SHRIRAMCIT,Shriram City Union Finance Limited,Financial Services
-SHRIRAMEPC,,
-SHYAMCENT,,
-SHYAMMETL,,
-SHYAMTEL,,
-SICAGEN,,
-SICAL,,
-SIEMENS,Siemens Limited,Capital Goods
-SIGIND,,
-SIL,,
-SILGO,,
-SILINV,,
-SILLYMONKS,,
-SIMBHALS,,
-SIMPLEXINF,,
-SINTERCOM,,
-SINTEX,,
-SIRCA,,
-SIS,SIS Limited,Services
-SITINET,,
-SIYSIL,,
-SJVN,SJVN Limited,Power
-SKFINDIA,SKF India Limited,Capital Goods
-SKIL,,
-SKIPPER,,
-SKMEGGPROD,,
-SMARTLINK,,
-SMCGLOBAL,,
-SMLISUZU,,
-SMSLIFE,,
-SMSPHARMA,,
-SNOWMAN,,
-SOBHA,Sobha Limited,Real Estate
-SOLARA,,
-SOLARINDS,,
-SOMANYCERA,,
-SOMATEX,,
-SOMICONVEY,,
-SONACOMS,Sona BLW Precision Forgings Limited,Automobile and Auto Components
-SONATSOFTW,Sonata Software Limited,Information Technology
-SORILINFRA,,
-SOTL,,
-SOUTHBANK,South Indian Bank Limited,Financial Services
-SOUTHWEST,,
-SPAL,,
-SPANDANA,,
-SPARC,,
-SPECIALITY,,
-SPENCERS,Spencer's Retail Limited,Consumer Services
-SPENTEX,,
-SPIC,,
-SPICEJET,SpiceJet Limited,Services
-SPLIL,,
-SPMLINFRA,,
-SPTL,,
-SREEL,,
-SREINFRA,,
-SRF,SRF Limited,Chemicals
-SRHHYPOLTD,,
-SRIPIPES,,
-SRPL,,
-SRTRANSFIN,Shriram Transport Finance Company Limited,Financial Services
-SSWL,,
-STAR,,
-STARCEMENT,,
-STARPAPER,,
-STCINDIA,,
-STEELCITY,,
-STEELXIND,,
-STEL,,
-STERTOOLS,,
-STLTECH,Sterlite Technologies Limited,Telecommunication
-STOVEKRAFT,,
-SUBCAPCITY,,
-SUBEXLTD,,
-SUBROS,,
-SUDARSCHEM,,
-SUMEETINDS,,
-SUMICHEM,,
-SUMIT,,
-SUMMITSEC,,
-SUNCLAYLTD,,
-SUNDARAM,,
-SUNDARMFIN,,
-SUNDARMHLD,,
-SUNDRMBRAK,,
-SUNDRMFAST,,
-SUNFLAG,,
-SUNPHARMA,Sun Pharmaceutical Industries Limited,Healthcare
-SUNTECK,,
-SUNTV,Sun TV Network Limited,Media Entertainment & Publication
-SUPERHOUSE,,
-SUPERSPIN,,
-SUPPETRO,,
-SUPRAJIT,,
-SUPREMEENG,,
-SUPREMEIND,,
-SURANASOL,,
-SURANAT&P,,
-SURYALAXMI,,
-SURYAROSNI,,
-SURYODAY,,
-SUTLEJTEX,,
-SUULD,,
-SUVEN,,
-SUVENPHAR,,
-SUVIDHAA,,
-SUZLON,Suzlon Energy Limited,Power
-SWANENERGY,,
-SWARAJENG,,
-SWELECTES,,
-SWSOLAR,,
-SYMPHONY,Symphony Limited,Consumer Durables
-SYNGENE,Syngene International Limited,Healthcare
-TAINWALCHM,,
-TAJGVK,,
-TAKE,,
-TALBROAUTO,,
-TANLA,Tanla Platforms Limited,Information Technology
-TANTIACONS,,
-TARAPUR,,
-TARC,,
-TARMAT,,
-TASTYBITE,,
-TATACHEM,Tata Chemicals Limited,Chemicals
-TATACOFFEE,Tata Coffee Limited,Fast Moving Consumer Goods
-TATACOMM,Tata Communications Limited,Telecommunication
-TATACONSUM,Tata Consumer Products Limited,Fast Moving Consumer Goods
-TATAELXSI,Tata Elxsi Limited,Information Technology
-TATAINVEST,,
-TATAMETALI,,
-TATAMOTORS,Tata Motors Limited,Automobile and Auto Components
-TATAMTRDVR,Tata Motors Limited,Automobile and Auto Components
-TATAPOWER,The Tata Power Company Limited,Power
-TATASTEEL,Tata Steel Limited,Metals & Mining
-TATASTLBSL,,
-TATASTLLP,,
-TBZ,Tribhovandas Bhimji Zaveri Limited,Consumer Durables
-TCI,Transport Corporation of India Limited,Services
-TCIDEVELOP,,
-TCIEXP,,
-TCIFINANCE,,
-TCNSBRANDS,,
-TCPLPACK,,
-TCS,Tata Consultancy Services Limited,Information Technology
-TDPOWERSYS,,
-TEAMLEASE,TeamLease Services Limited,Services
-TECHIN,,
-TECHM,Tech Mahindra Limited,Information Technology
-TECHNOE,,
-TEJASNET,,
-TEMBO,,
-TERASOFT,,
-TEXINFRA,,
-TEXMOPIPES,,
-TEXRAIL,,
-TFCILTD,,
-TFL,,
-TGBHOTELS,,
-THANGAMAYL,,
-THEINVEST,,
-THEMISMED,,
-THERMAX,Thermax Limited,Capital Goods
-THOMASCOOK,Thomas Cook India Limited,Consumer Services
-THOMASCOTT,,
-THYROCARE,Thyrocare Technologies Limited,Healthcare
-TI,,
-TIDEWATER,,
-TIIL,,
-TIINDIA,,
-TIJARIA,,
-TIL,,
-TIMESGTY,,
-TIMETECHNO,,
-TIMKEN,,
-TINPLATE,The Tinplate Company of India Limited,Metals & Mining
-TIPSINDLTD,,
-TIRUMALCHM,,
-TIRUPATIFL,,
-TITAN,Titan Company Limited,Consumer Durables
-TMRVL,,
-TNPETRO,,
-TNPL,,
-TNTELE,,
-TOKYOPLAST,,
-TORNTPHARM,Torrent Pharmaceuticals Limited,Healthcare
-TORNTPOWER,Torrent Power Limited,Power
-TOTAL,,
-TOUCHWOOD,,
-TPLPLASTEH,,
-TREEHOUSE,,
-TREJHARA,,
-TRENT,Trent Limited,Consumer Services
-TRF,,
-TRIDENT,Trident Limited,Textiles
-TRIGYN,,
-TRIL,,
-TRITURBINE,,
-TRIVENI,,
-TTKHLTCARE,,
-TTKPRESTIG,,
-TTL,,
-TTML,,
-TV18BRDCST,TV18 Broadcast Limited,Media Entertainment & Publication
-TVSELECT,,
-TVSMOTOR,TVS Motor Company Limited,Automobile and Auto Components
-TVSSRICHAK,,
-TVTODAY,,
-TVVISION,,
-TWL,,
-UBL,United Breweries Limited,Fast Moving Consumer Goods
-UCALFUEL,,
-UCOBANK,UCO Bank,Financial Services
-UFLEX,Uflex Limited,Consumer Durables
-UFO,,
-UGARSUGAR,,
-UJAAS,,
-UJJIVAN,,
-UJJIVANSFB,Ujjivan Small Finance Bank Limited,Financial Services
-ULTRACEMCO,UltraTech Cement Limited,Construction Materials
-UMANGDAIRY,,
-UMESLTD,,
-UNICHEMLAB,,
-UNIDT,,
-UNIENTER,,
-UNIONBANK,Union Bank of India,Financial Services
-UNITECH,Unitech Limited,Real Estate
-UNITEDTEA,,
-UNIVASTU,,
-UNIVCABLES,,
-UNIVPHOTO,,
-UPL,UPL Limited,Chemicals
-URJA,,
-USHAMART,,
-UTIAMC,UTI Asset Management Company Limited,Financial Services
-UTTAMSTL,,
-UTTAMSUGAR,,
-V2RETAIL,V2 Retail Limited,Consumer Services
-VADILALIND,,
-VAIBHAVGBL,,
-VAISHALI,,
-VAKRANGEE,Vakrangee Limited,Services
-VALIANTORG,,
-VARDHACRLC,,
-VARDMNPOLY,,
-VARROC,,
-VASCONEQ,,
-VASWANI,,
-VBL,Varun Beverages Limited,Fast Moving Consumer Goods
-VEDL,Vedanta Limited,Metals & Mining
-VENKEYS,,
-VENUSREM,,
-VERTOZ,,
-VESUVIUS,,
-VETO,,
-VGUARD,V-Guard Industries Limited,Consumer Durables
-VHL,,
-VICEROY,,
-VIDHIING,,
-VIJIFIN,,
-VIKASECO,,
-VIKASLIFE,,
-VIKASPROP,,
-VIKASWSP,,
-VIMTALABS,,
-VINATIORGA,,
-VINDHYATEL,,
-VINEETLAB,,
-VINYLINDIA,,
-VIPCLOTHNG,,
-VIPIND,,
-VIPULLTD,,
-VISAKAIND,,
-VISASTEEL,,
-VISHAL,,
-VISHNU,,
-VISHWARAJ,,
-VIVIDHA,,
-VIVIMEDLAB,,
-VLSFINANCE,,
-VMART,V-Mart Retail Limited,Consumer Services
-VOLTAMP,,
-VOLTAS,Voltas Limited,Consumer Durables
-VRLLOG,,
-VSSL,,
-VSTIND,,
-VSTTILLERS,,
-VTL,,
-WABAG,,
-WABCOINDIA,,
-WALCHANNAG,,
-WANBURY,,
-WATERBASE,,
-WEALTH,,
-WEBELSOLAR,,
-WEIZMANIND,,
-WELCORP,,
-WELENT,,
-WELINV,,
-WELSPUNIND,,
-WENDT,,
-WESTLIFE,Westlife Development Limited,Consumer Services
-WHEELS,,
-WHIRLPOOL,Whirlpool of India Limited,Consumer Durables
-WILLAMAGOR,,
-WINDMACHIN,,
-WIPL,,
-WIPRO,Wipro Limited,Information Technology
-WOCKPHARMA,Wockhardt Limited,Healthcare
-WONDERLA,Wonderla Holidays Limited,Consumer Services
-WORTH,,
-WSI,,
-WSTCSTPAPR,,
-XCHANGING,,
-XELPMOC,,
-XPROINDIA,,
-YAARII,,
-YESBANK,Yes Bank Limited,Financial Services
-ZEEL,Zee Entertainment Enterprises Limited,Media Entertainment & Publication
-ZEELEARN,,
-ZEEMEDIA,,
-ZENITHEXPO,,
-ZENSARTECH,Zensar Technologies Limited,Information Technology
-ZENTEC,,
-ZODIACLOTH,,
-ZODJRDMKJ,,
-ZOTA,,
-ZUARI,,
-ZUARIGLOB,,
-ZYDUSWELL,Zydus Wellness Limited,Healthcare
+symbol,name
+20MICRONS,20 Microns Limited
+21STCENMGM,21st Century Management Services Limited
+3IINFOTECH,3i Infotech Limited
+3MINDIA,3M India Limited
+3PLAND,3P Land Holdings Limited
+5PAISA,5paisa Capital Limited
+63MOONS,63 moons technologies limited
+A2ZINFRA,A2Z Infra Engineering Limited
+AAKASH,Aakash Educational Services Limited
+AARON,
+AARTIDRUGS,Aarti Drugs Limited
+AARTIIND,Aarti Industries Limited
+AARTISURF,Aarti Surfactants Limited
+AARVEEDEN,
+AARVI,
+AAVAS,Aavas Financiers Limited
+ABAN,Aban Offshore Limited
+ABB,ABB India Limited
+ABBOTINDIA,Abbott India Limited
+ABCAPITAL,Aditya Birla Capital Limited
+ABFRL,Aditya Birla Fashion and Retail Limited
+ABMINTLTD,
+ACC,ACC Limited
+ACCELYA,Accelya Solutions India Limited
+ACCURACY,
+ACE,Action Construction Equipment Limited
+ACRYSIL,Acrysil Limited
+ADANIENT,Adani Enterprises Limited
+ADANIGREEN,Adani Green Energy Limited
+ADANIPORTS,Adani Ports and Special Economic Zone Limited
+ADANIPOWER,Adani Power Limited
+ADANITRANS,Adani Transmission Limited
+ADFFOODS,ADF Foods Limited
+ADL,
+ADORWELD,
+ADROITINFO,
+ADSL,
+ADVANIHOTR,
+ADVENZYMES,Advanced Enzyme Technologies Limited
+AEGISCHEM,
+AFFLE,Affle India Limited
+AGARIND,
+AGCNET,
+AGRITECH,
+AGROPHOS,
+AHLADA,
+AHLEAST,
+AHLUCONT,
+AHLWEST,
+AIAENG,
+AIRAN,
+AJANTPHARM,Ajanta Pharma Limited
+AJMERA,Ajmera Realty & Infra India Limited
+AJOONI,
+AKASH,
+AKG,
+AKSHARCHEM,
+AKSHOPTFBR,
+AKZOINDIA,Akzo Nobel India Limited
+ALANKIT,Alankit Limited
+ALBERTDAVD,Albert David Limited
+ALEMBICLTD,Alembic Limited
+ALICON,
+ALKALI,
+ALKEM,Alkem Laboratories Limited
+ALKYLAMINE,Alkyl Amines Chemicals Limited
+ALLCARGO,Allcargo Logistics Limited
+ALLSEC,Allsec Technologies Limited
+ALMONDZ,
+ALOKINDS,Alok Industries Limited
+ALPA,
+ALPHAGEO,
+ALPSINDUS,
+AMARAJABAT,Amara Raja Batteries Limited
+AMBER,
+AMBICAAGAR,
+AMBIKCO,
+AMBUJACEM,Ambuja Cements Limited
+AMDIND,
+AMJLAND,
+AMRUTANJAN,Amrutanjan Health Care Limited
+ANANTRAJ,Anant Raj Limited
+ANDHRACEMT,
+ANDHRAPAP,
+ANDHRSUGAR,
+ANGELBRKG,Angel Broking Limited
+ANIKINDS,
+ANKITMETAL,
+ANMOL,
+ANSALAPI,Ansal Properties & Infrastructure Limited
+ANSALHSG,
+ANUP,
+ANURAS,
+APARINDS,Apar Industries Limited
+APCL,
+APCOTEXIND,Apcotex Industries Limited
+APEX,
+APLAPOLLO,APL Apollo Tubes Limited
+APLLTD,
+APOLLO,Apollo Micro Systems Limited
+APOLLOHOSP,Apollo Hospitals Enterprise Limited
+APOLLOPIPE,Apollo Pipes Limited
+APOLLOTYRE,Apollo Tyres Limited
+APOLSINHOT,
+APTECHT,
+ARCHIDPLY,
+ARCHIES,Archies Limited
+ARENTERP,
+ARIES,
+ARIHANT,
+ARIHANTCAP,
+ARIHANTSUP,
+ARMANFIN,
+AROGRANITE,
+ARROWGREEN,
+ARSHIYA,Arshiya Limited
+ARSSINFRA,
+ARTEMISMED,
+ARVEE,
+ARVIND,Arvind Limited
+ARVINDFASN,
+ARVSMART,
+ASAHIINDIA,Asahi India Glass Limited
+ASAHISONG,
+ASAL,
+ASALCBR,
+ASHAPURMIN,
+ASHIANA,Ashiana Housing Limited
+ASHIMASYN,
+ASHOKA,Ashoka Buildcon Limited
+ASHOKLEY,Ashok Leyland Limited
+ASIANHOTNR,
+ASIANPAINT,Asian Paints Limited
+ASIANTILES,
+ASPINWALL,
+ASTEC,
+ASTERDM,Aster DM Healthcare Limited
+ASTRAL,Astral Limited
+ASTRAMICRO,
+ASTRAZEN,
+ASTRON,
+ATFL,
+ATGL,
+ATLANTA,
+ATUL,Atul Limited
+ATULAUTO,
+AUBANK,AU Small Finance Bank Limited
+AURIONPRO,Aurionpro Solutions Limited
+AUROPHARMA,Aurobindo Pharma Limited
+AUSOMENT,
+AUTOAXLES,Automotive Axles Limited
+AUTOIND,
+AVADHSUGAR,
+AVANTIFEED,
+AVTNPL,
+AWHCL,
+AXISBANK,Axis Bank Limited
+AXISCADES,
+AYMSYNTEX,
+BAFNAPH,
+BAGFILMS,Balaji Telefilms Limited
+BAJAJ-AUTO,Bajaj Auto Limited
+BAJAJCON,Bajaj Consumer Care Limited
+BAJAJELEC,
+BAJAJFINSV,Bajaj Finserv Limited
+BAJAJHIND,
+BAJAJHLDNG,
+BAJFINANCE,Bajaj Finance Limited
+BALAJITELE,Balaji Telefilms Limited
+BALAMINES,
+BALAXI,
+BALKRISHNA,Balkrishna Industries Limited
+BALKRISIND,Balkrishna Industries Limited
+BALLARPUR,
+BALMLAWRIE,
+BALPHARMA,
+BALRAMCHIN,Balrampur Chini Mills Limited
+BANARBEADS,
+BANARISUG,
+BANCOINDIA,
+BANDHANBNK,Bandhan Bank Limited
+BANG,
+BANKA,
+BANKBARODA,Bank of Baroda
+BANKINDIA,Bank of India
+BANSWRAS,
+BARBEQUE,
+BARTRONICS,
+BASF,BASF India Limited
+BASML,
+BATAINDIA,Bata India Limited
+BAYERCROP,Bayer CropScience Limited
+BBL,
+BBTC,
+BCG,
+BCLIND,
+BCP,
+BDL,Bharat Dynamics Limited
+BEARDSELL,
+BECTORFOOD,
+BEDMUTHA,
+BEL,Bharat Electronics Limited
+BEML,BEML Limited
+BEPL,
+BERGEPAINT,Berger Paints India Limited
+BESTAGRO,
+BFINVEST,
+BFUTILITIE,
+BGRENERGY,
+BHAGERIA,
+BHAGYANGR,
+BHAGYAPROP,
+BHANDARI,
+BHARATFORG,Bharat Forge Limited
+BHARATGEAR,
+BHARATRAS,
+BHARATWIRE,
+BHARTIARTL,Bharti Airtel Limited
+BHEL,Bharat Heavy Electricals Limited
+BIGBLOC,
+BIL,
+BINDALAGRO,
+BIOCON,Biocon Limited
+BIOFILCHEM,
+BIRLACABLE,
+BIRLACORPN,
+BIRLAMONEY,
+BIRLATYRE,
+BKMINDST,
+BLBLIMITED,
+BLISSGVS,
+BLKASHYAP,
+BLS,BLS International Services Limited
+BLUECOAST,
+BLUEDART,Blue Dart Express Limited
+BLUESTARCO,Blue Star Limited
+BODALCHEM,
+BOMDYEING,Bombay Dyeing & Manufacturing Company Limited
+BOROLTD,
+BORORENEW,
+BOSCHLTD,Bosch Limited
+BPCL,Bharat Petroleum Corporation Limited
+BPL,BPL Limited
+BRFL,
+BRIGADE,Brigade Enterprises Limited
+BRITANNIA,Britannia Industries Limited
+BRNL,
+BROOKS,
+BSE,BSE Limited
+BSELINFRA,
+BSHSL,
+BSL,
+BSOFT,
+BURGERKING,Restaurant Brands Asia Limited
+BUTTERFLY,Butterfly Gandhimathi Appliances Limited
+BVCL,
+BYKE,
+CADILAHC,Cadila Healthcare Limited
+CALSOFT,
+CAMLINFINE,Camlin Fine Sciences Limited
+CAMS,Computer Age Management Services Limited
+CANBK,Canara Bank
+CANDC,
+CANFINHOME,Can Fin Homes Limited
+CANTABIL,Cantabil Retail India Limited
+CAPACITE,
+CAPLIPOINT,Caplin Point Laboratories Limited
+CAPTRUST,
+CARBORUNIV,Carborundum Universal Limited
+CAREERP,
+CARERATING,Care Ratings Limited
+CASTROLIND,Castrol India Limited
+CCCL,
+CCHHL,
+CCL,CCL Products India Limited
+CDSL,Central Depository Services India Limited
+CEATLTD,CEAT Limited
+CEBBCO,
+CELEBRITY,
+CENTENKA,
+CENTEXT,
+CENTRALBK,Central Bank of India
+CENTRUM,Centrum Capital Limited
+CENTUM,
+CENTURYPLY,Century Plyboards India Limited
+CENTURYTEX,Century Textiles & Industries Limited
+CERA,Cera Sanitaryware Limited
+CEREBRAINT,
+CESC,CESC Limited
+CGCL,
+CGPOWER,CG Power and Industrial Solutions Limited
+CHALET,
+CHAMBLFERT,Chambal Fertilizers & Chemicals Limited
+CHEMBOND,
+CHEMCON,
+CHEMFAB,
+CHENNPETRO,Chennai Petroleum Corporation Limited
+CHOLAFIN,Cholamandalam Investment and Finance Company Limited
+CHOLAHLDNG,Cholamandalam Financial Holdings Limited
+CIGNITITEC,
+CINELINE,
+CINEVISTA,
+CIPLA,Cipla Limited
+CLEDUCATE,
+CLNINDIA,
+CLSEL,
+CMICABLES,
+COALINDIA,Coal India Limited
+COCHINSHIP,Cochin Shipyard Limited
+COFFEEDAY,Coffee Day Enterprises Limited
+COFORGE,Coforge Limited
+COLPAL,Colgate Palmolive India Limited
+COMPINFO,
+COMPUSOFT,
+CONCOR,Container Corporation of India Limited
+CONFIPET,
+CONSOFINVT,
+CONTROLPR,
+CORALFINAC,
+CORDSCABLE,
+COROMANDEL,Coromandel International Limited
+COSMOFILMS,Cosmo Films Limited
+COUNCODOS,
+COX&KINGS,Cox & Kings Limited
+CRAFTSMAN,
+CREATIVE,
+CREATIVEYE,
+CREDITACC,
+CREST,
+CRISIL,CRISIL Limited
+CROMPTON,Crompton Greaves Consumer Electricals Limited
+CSBBANK,
+CTE,
+CUB,City Union Bank Limited
+CUBEXTUB,
+CUMMINSIND,Cummins India Limited
+CUPID,Cupid Limited
+CYBERMEDIA,
+CYBERTECH,
+CYIENT,Cyient Limited
+DAAWAT,LT Foods Limited
+DABUR,Dabur India Limited
+DALALSTCOM,
+DALBHARAT,Dalmia Bharat Limited
+DALMIASUG,
+DAMODARIND,
+DANGEE,
+DATAMATICS,Datamatics Global Services Limited
+DBCORP,
+DBL,
+DBREALTY,
+DBSTOCKBRO,
+DCAL,
+DCBBANK,DCB Bank Limited
+DCM,
+DCMFINSERV,
+DCMNVL,
+DCMSHRIRAM,
+DCW,
+DECCANCE,
+DEEPAKFERT,
+DEEPAKNTR,Deepak Nitrite Limited
+DEEPENR,
+DEEPINDS,
+DELTACORP,Delta Corp Limited
+DELTAMAGNT,
+DEN,
+DENORA,
+DFMFOODS,
+DGCONTENT,
+DHAMPURSUG,
+DHANBANK,
+DHANI,
+DHANUKA,Dhanuka Agritech Limited
+DHARSUGAR,
+DHUNINV,
+DIAMONDYD,
+DIAPOWER,
+DICIND,
+DIGISPICE,
+DISHTV,Dish TV India Limited
+DIVISLAB,Divi's Laboratories Limited
+DIXON,Dixon Technologies India Limited
+DLF,DLF Limited
+DLINKINDIA,
+DMART,Avenue Supermarts Limited
+DNAMEDIA,
+DODLA,Dodla Dairy Limited
+DOLAT,
+DOLLAR,Dollar Industries Limited
+DONEAR,
+DPABHUSHAN,
+DPSCLTD,
+DPWIRES,
+DRCSYSTEMS,
+DREDGECORP,
+DRREDDY,Dr. Reddy's Laboratories Limited
+DSSL,
+DTIL,
+DUCON,
+DVL,
+DWARKESH,
+DYNAMATECH,
+DYNPRO,
+EASEMYTRIP,Easy Trip Planners Limited
+EASTSILK,
+EASUNREYRL,
+EBIXFOREX,
+ECLERX,eClerx Services Limited
+EDELWEISS,Edelweiss Financial Services Limited
+EDUCOMP,
+EICHERMOT,Eicher Motors Limited
+EIDPARRY,EID Parry India Limited
+EIHAHOTELS,
+EIHOTEL,
+EIMCOELECO,
+EKC,
+ELECON,
+ELECTCAST,
+ELECTHERM,
+ELGIEQUIP,Elgi Equipments Limited
+ELGIRUBCO,
+EMAMILTD,Emami Limited
+EMAMIPAP,
+EMAMIREAL,
+EMCO,
+EMKAY,
+EMMBI,
+ENDURANCE,Endurance Technologies Limited
+ENERGYDEV,
+ENGINERSIN,
+ENIL,Entertainment Network India Limited
+EPL,Essel Propack Limited
+EQUITAS,Equitas Holdings Limited
+EQUITASBNK,Equitas Small Finance Bank Limited
+ERIS,Eris Lifesciences Limited
+EROSMEDIA,Eros International Media Limited
+ESABINDIA,
+ESCORTS,Escorts Limited
+ESSARSHPNG,
+ESTER,
+EUROTEXIND,
+EVEREADY,Eveready Industries India Limited
+EVERESTIND,
+EXCEL,
+EXCELINDUS,
+EXIDEIND,Exide Industries Limited
+EXPLEOSOL,
+FACT,Fertilizers and Chemicals Travancore Limited
+FAIRCHEMOR,
+FCL,
+FCONSUMER,
+FCSSOFT,
+FDC,FDC Limited
+FEDERALBNK,Federal Bank Limited
+FEL,
+FELDVR,
+FIEMIND,
+FILATEX,
+FINCABLES,
+FINEORG,
+FINPIPE,
+FLEXITUFF,
+FLFL,
+FLUOROCHEM,
+FMGOETZE,
+FMNL,
+FORCEMOT,Force Motors Limited
+FORTIS,Fortis Healthcare Limited
+FOSECOIND,
+FRETAIL,Future Retail Limited
+FSC,
+FSL,
+GABRIEL,Gabriel India Limited
+GAEL,
+GAIL,GAIL India Limited
+GAL,
+GALAXYSURF,
+GALLANTT,
+GALLISPAT,
+GAMMNINFRA,
+GANDHITUBE,
+GANECOS,
+GANESHHOUC,
+GANGAFORGE,
+GANGESSECU,
+GARFIBRES,
+GATI,GATI Limited
+GAYAHWS,
+GAYAPROJ,
+GDL,
+GEECEE,
+GEEKAYWIRE,
+GENCON,
+GENESYS,
+GENUSPAPER,
+GENUSPOWER,
+GEOJITFSL,
+GEPIL,
+GESHIP,
+GET&D,
+GFLLIMITED,
+GFSTEELS,
+GHCL,GHCL Limited
+GICHSGFIN,
+GICRE,
+GILLANDERS,
+GILLETTE,Gillette India Limited
+GINNIFILA,
+GIPCL,
+GKWLIMITED,
+GLAND,Gland Pharma Limited
+GLAXO,GlaxoSmithKline Pharmaceuticals Limited
+GLENMARK,Glenmark Pharmaceuticals Limited
+GLFL,
+GLOBAL,
+GLOBALVECT,
+GLOBE,
+GLOBUSSPR,
+GMBREW,
+GMDCLTD,
+GMMPFAUDLR,
+GMRINFRA,GMR Infrastructure Limited
+GNA,
+GNFC,Gujarat Narmada Valley Fertilizers & Chemicals Limited
+GOACARBON,
+GOCLCORP,
+GODFRYPHLP,Godrej Consumer Products Limited
+GODHA,
+GODREJAGRO,Godrej Agrovet Limited
+GODREJCP,Godrej Consumer Products Limited
+GODREJIND,Godrej Industries Limited
+GODREJPROP,Godrej Properties Limited
+GOENKA,
+GOKEX,
+GOKUL,
+GOKULAGRO,
+GOLDENTOBC,
+GOLDIAM,
+GOLDTECH,
+GOODLUCK,
+GOODYEAR,Goodyear India Limited
+GPIL,
+GPPL,
+GPTINFRA,
+GRANULES,Granules India Limited
+GRAPHITE,Graphite India Limited
+GRASIM,Grasim Industries Limited
+GRAVITA,
+GREAVESCOT,
+GREENLAM,
+GREENPANEL,
+GREENPLY,
+GREENPOWER,
+GRINDWELL,Grindwell Norton Limited
+GROBTEA,
+GRPLTD,
+GRSE,Garden Reach Shipbuilders & Engineers Limited
+GSCLCEMENT,
+GSFC,Gujarat State Fertilizers & Chemicals Limited
+GSPL,
+GSS,
+GTL,GTL Limited
+GTLINFRA,
+GTNTEX,
+GTPL,GTPL Hathway Limited
+GUFICBIO,
+GUJALKALI,Gujarat Alkalies and Chemicals Limited
+GUJAPOLLO,
+GUJGASLTD,
+GUJRAFFIA,
+GULFOILLUB,
+GULFPETRO,
+GULPOLY,
+HAL,Hindustan Aeronautics Limited
+HAPPSTMNDS,Happiest Minds Technologies Limited
+HARRMALAYA,
+HATHWAY,Hathway Cable & Datacom Limited
+HATSUN,Hatsun Agro Product Limited
+HAVELLS,Havells India Limited
+HAVISHA,
+HBLPOWER,
+HBSL,
+HCC,Hindustan Construction Company Limited
+HCG,HealthCare Global Enterprises Limited
+HCL-INSYS,
+HCLTECH,HCL Technologies Limited
+HDFC,Housing Development Finance Corporation Limited
+HDFCAMC,HDFC Asset Management Company Limited
+HDFCBANK,HDFC Bank Limited
+HDFCLIFE,HDFC Life Insurance Company Limited
+HDIL,
+HEG,HEG Limited
+HEIDELBERG,HeidelbergCement India Limited
+HEMIPROP,
+HERANBA,
+HERCULES,
+HERITGFOOD,Heritage Foods Limited
+HEROMOTOCO,Hero MotoCorp Limited
+HESTERBIO,
+HEXATRADEX,
+HFCL,HFCL Limited
+HGINFRA,
+HGS,HGS Limited
+HIKAL,Hikal Limited
+HIL,HIL Limited
+HILTON,
+HIMATSEIDE,
+HINDALCO,Hindalco Industries Limited
+HINDCOMPOS,
+HINDCON,
+HINDCOPPER,
+HINDMOTORS,
+HINDNATGLS,
+HINDOILEXP,
+HINDPETRO,Hindustan Petroleum Corporation Limited
+HINDUNILVR,Hindustan Unilever Limited
+HINDZINC,Hindustan Zinc Limited
+HIRECT,
+HISARMETAL,
+HITECH,
+HITECHCORP,
+HITECHGEAR,
+HLEGLAS,
+HLVLTD,
+HMT,HMT Limited
+HMVL,
+HNDFDS,
+HOMEFIRST,Home First Finance Company India Limited
+HONAUT,
+HONDAPOWER,
+HOTELRUGBY,
+HOVS,
+HPL,HPL Electric & Power Limited
+HSCL,
+HSIL,HSIL Limited
+HTMEDIA,HT Media Limited
+HUBTOWN,
+HUDCO,Housing and Urban Development Corporation Limited
+HUHTAMAKI,Huhtamaki India Limited
+IBREALEST,
+IBULHSGFIN,Indiabulls Housing Finance Limited
+ICDSLTD,
+ICEMAKE,
+ICICIBANK,ICICI Bank Limited
+ICICIGI,ICICI Lombard General Insurance Company Limited
+ICICIPRULI,ICICI Prudential Life Insurance Company Limited
+ICIL,
+ICRA,ICRA Limited
+IDBI,IDBI Bank Limited
+IDEA,Vodafone Idea Limited
+IDFC,IDFC Limited
+IDFCFIRSTB,IDFC First Bank Limited
+IEX,Indian Energy Exchange Limited
+IFBAGRO,
+IFBIND,
+IFCI,Indian Financial Technology & Allied Services Limited
+IFGLEXPOR,
+IGARASHI,
+IGL,Indraprastha Gas Limited
+IGPL,
+IIFL,India Infoline Limited
+IIFLSEC,
+IIFLWAM,
+IITL,
+IL&FSENGG,
+IL&FSTRANS,
+IMAGICAA,
+IMFA,
+IMPAL,
+INCREDIBLE,
+INDBANK,IndusInd Bank Limited
+INDHOTEL,
+INDIACEM,The India Cements Limited
+INDIAGLYCO,
+INDIAMART,IndiaMART InterMESH Limited
+INDIANB,Indian Bank
+INDIANCARD,
+INDIANHUME,
+INDIGO,InterGlobe Aviation Limited
+INDIGOPNTS,
+INDLMETER,
+INDNIPPON,
+INDOCO,Indoco Remedies Limited
+INDORAMA,
+INDOSOLAR,
+INDOSTAR,IndoStar Capital Finance Limited
+INDOTECH,
+INDOTHAI,
+INDOWIND,
+INDRAMEDCO,
+INDSWFTLAB,
+INDTERRAIN,
+INDUSINDBK,IndusInd Bank Limited
+INDUSTOWER,Indus Towers Limited
+INEOSSTYRO,
+INFIBEAM,Infibeam Avenues Limited
+INFOBEAN,
+INFOMEDIA,
+INFY,Infosys Limited
+INGERRAND,
+INOXLEISUR,INOX Leisure Limited
+INOXWIND,
+INSECTICID,
+INSPIRISYS,
+INTELLECT,Intellect Design Arena Limited
+INTENTECH,
+INVENTURE,
+IOB,Indian Overseas Bank
+IOC,Indian Oil Corporation Limited
+IOLCP,
+IPCALAB,IPCA Laboratories Limited
+IPL,Indian Petrochemicals Corporation Limited
+IRB,IRB Infrastructure Developers Limited
+IRCON,IRCON International Limited
+IRCTC,Indian Railway Catering and Tourism Corporation Limited
+IRFC,Indian Railway Finance Corporation Limited
+IRISDOREME,
+ISEC,IIFL Securities Limited
+ISFT,
+ISGEC,
+ISMTLTD,
+ITC,ITC Limited
+ITDC,India Tourism Development Corporation Limited
+ITDCEM,
+ITI,ITI Limited
+IVC,
+IVP,
+IWEL,
+IZMO,
+J&KBANK,Jammu & Kashmir Bank Limited
+JAGRAN,Jagran Prakashan Limited
+JAGSNPHARM,
+JAIBALAJI,
+JAICORPLTD,
+JAINSTUDIO,
+JAMNAAUTO,
+JASH,
+JAYAGROGN,
+JAYBARMARU,
+JAYNECOIND,
+JAYSREETEA,
+JBCHEPHARM,
+JBFIND,
+JBMA,
+JCHAC,
+JETAIRWAYS,
+JHS,
+JINDALPHOT,
+JINDALPOLY,
+JINDALSAW,
+JINDALSTEL,Jindal Steel & Power Limited
+JINDRILL,
+JINDWORLD,
+JISLDVREQS,
+JISLJALEQS,
+JITFINFRA,
+JIYAECO,
+JKCEMENT,JK Cement Limited
+JKIL,
+JKLAKSHMI,JK Lakshmi Cement Limited
+JKPAPER,JK Paper Limited
+JKTYRE,JK Tyre & Industries Limited
+JMA,
+JMCPROJECT,
+JMFINANCIL,
+JMTAUTOLTD,
+JOCIL,
+JPASSOCIAT,
+JPINFRATEC,
+JPPOWER,
+JSL,Jindal Stainless Limited
+JSLHISAR,
+JSWENERGY,JSW Energy Limited
+JSWHL,
+JSWISPL,
+JSWSTEEL,JSW Steel Limited
+JTEKTINDIA,
+JUBLFOOD,Jubilant FoodWorks Limited
+JUBLINDS,
+JUBLINGREA,
+JUBLPHARMA,Jubilant Pharmova Limited
+JUMPNET,
+JUSTDIAL,Just Dial Limited
+JYOTHYLAB,Jyothy Labs Limited
+JYOTISTRUC,
+KABRAEXTRU,
+KAJARIACER,Kajaria Ceramics Limited
+KAKATCEM,
+KALPATPOWR,Kalpataru Power Transmission Limited
+KALYANI,
+KALYANIFRG,
+KALYANKJIL,
+KAMATHOTEL,
+KAMDHENU,
+KANANIIND,
+KANORICHEM,
+KANPRPLA,
+KANSAINER,
+KAPSTON,
+KARDA,
+KARMAENG,
+KARURVYSYA,Karur Vysya Bank Limited
+KAUSHALYA,
+KAYA,Kaya Limited
+KCP,KCP Limited
+KCPSUGIND,
+KDDL,
+KEC,KEC International Limited
+KECL,
+KEERTI,
+KEI,KEI Industries Limited
+KELLTONTEC,
+KENNAMET,
+KERNEX,
+KESORAMIND,
+KEYFINSERV,
+KHADIM,
+KHAICHEM,
+KHANDSE,
+KICL,
+KILITCH,
+KIMS,Krishna Institute of Medical Sciences Limited
+KINGFA,
+KIOCL,
+KIRIINDUS,
+KIRLFER,
+KIRLOSBROS,
+KIRLOSENG,
+KIRLOSIND,
+KITEX,
+KKCL,
+KMSUGAR,
+KNRCON,KNR Constructions Limited
+KOKUYOCMLN,
+KOLTEPATIL,Kolte-Patil Developers Limited
+KOPRAN,Kopran Limited
+KOTAKBANK,Kotak Mahindra Bank Limited
+KOTARISUG,
+KOTHARIPET,
+KOTHARIPRO,
+KPITTECH,KPIT Technologies Limited
+KPRMILL,KPR Mill Limited
+KRBL,KRBL Limited
+KREBSBIO,
+KRIDHANINF,
+KRISHANA,
+KSB,KSB Limited
+KSCL,
+KSL,
+KTKBANK,Karnataka Bank Limited
+KUANTUM,
+L&TFH,L&T Finance Holdings Limited
+LAKPRE,
+LALPATHLAB,Dr. Lal Pathlabs Limited
+LAMBODHARA,
+LAOPALA,
+LASA,
+LAURUSLABS,Laurus Labs Limited
+LAXMIMACH,
+LCCINFOTEC,
+LEMONTREE,Lemon Tree Hotels Limited
+LFIC,
+LGBBROSLTD,
+LGBFORGE,
+LIBAS,
+LIBERTSHOE,
+LICHSGFIN,LIC Housing Finance Limited
+LIKHITHA,
+LINCOLN,
+LINCPEN,
+LINDEINDIA,
+LODHA,Macrotech Developers Limited
+LOKESHMACH,
+LOTUSEYE,
+LOVABLE,
+LPDC,
+LSIL,
+LT,Larsen & Toubro Limited
+LTI,Larsen & Toubro Infotech Limited
+LTTS,L&T Technology Services Limited
+LUMAXIND,
+LUMAXTECH,
+LUPIN,Lupin Limited
+LUXIND,
+LXCHEM,
+LYKALABS,
+LYPSAGEMS,
+M&M,Mahindra & Mahindra Limited
+M&MFIN,Mahindra & Mahindra Financial Services Limited
+MAANALU,
+MACPOWER,
+MADHAV,
+MADHUCON,
+MADRASFERT,
+MAGADSUGAR,
+MAGMA,
+MAGNUM,
+MAHABANK,Bank of Maharashtra
+MAHAPEXLTD,
+MAHASTEEL,
+MAHEPC,
+MAHESHWARI,
+MAHINDCIE,
+MAHLIFE,
+MAHLOG,
+MAHSCOOTER,
+MAHSEAMLES,
+MAITHANALL,
+MAJESCO,
+MALUPAPER,
+MANAKALUCO,
+MANAKCOAT,
+MANAKSIA,
+MANAKSTEEL,
+MANALIPETC,
+MANAPPURAM,Manappuram Finance Limited
+MANGALAM,
+MANGCHEFER,
+MANGLMCEM,
+MANGTIMBER,
+MANINDS,
+MANINFRA,
+MANUGRAPH,
+MARALOVER,
+MARATHON,
+MARICO,Marico Limited
+MARINE,
+MARKSANS,Marksans Pharma Limited
+MARUTI,Maruti Suzuki India Limited
+MASFIN,
+MASKINVEST,
+MASTEK,Mastek Limited
+MATRIMONY,Matrimony.com Limited
+MAWANASUG,
+MAXHEALTH,Max Healthcare Institute Limited
+MAXIND,
+MAXVIL,
+MAYURUNIQ,
+MAZDA,
+MAZDOCK,
+MBAPL,
+MBECL,
+MBLINFRA,
+MCDHOLDING,
+MCDOWELL-N,United Breweries Limited
+MCL,
+MCLEODRUSS,
+MCX,Multi Commodity Exchange of India Limited
+MEGASOFT,
+MELSTAR,
+MENONBE,
+MEP,
+MERCATOR,
+METALFORGE,
+METROPOLIS,Metropolis Healthcare Limited
+MFSL,Max Financial Services Limited
+MGEL,
+MGL,Mahanagar Gas Limited
+MHRIL,
+MIDHANI,
+MINDACORP,
+MINDAIND,
+MINDTECK,
+MINDTREE,Mindtree Limited
+MIRCELECTR,
+MIRZAINT,
+MITTAL,
+MMFL,
+MMP,
+MMTC,MMTC Limited
+MODIRUBBER,
+MODISNME,
+MOHITIND,
+MOHOTAIND,
+MOIL,MOIL Limited
+MOKSH,
+MOLDTECH,
+MOLDTKPAC,
+MONTECARLO,
+MORARJEE,
+MOREPENLAB,
+MOTHERSUMI,Motherson Sumi Systems Limited
+MOTILALOFS,Motilal Oswal Financial Services Limited
+MOTOGENFIN,
+MPHASIS,Mphasis Limited
+MPSLTD,
+MRF,MRF Limited
+MRO-TEK,
+MRPL,Mangalore Refinery and Petrochemicals Limited
+MSPL,
+MSTCLTD,
+MTARTECH,
+MTEDUCARE,
+MTNL,Mahanagar Telephone Nigam Limited
+MUKANDLTD,
+MUKTAARTS,
+MUNJALAU,
+MUNJALSHOW,
+MURUDCERA,
+MUTHOOTCAP,
+MUTHOOTFIN,Muthoot Finance Limited
+NACLIND,
+NAGAFERT,
+NAGREEKCAP,
+NAGREEKEXP,
+NAHARCAP,
+NAHARINDUS,
+NAHARPOLY,
+NAHARSPING,
+NAM-INDIA,
+NATCOPHARM,Natco Pharma Limited
+NATHBIOGEN,
+NATIONALUM,National Aluminium Company Limited
+NAUKRI,Info Edge India Limited
+NAVINFLUOR,Navin Fluorine International Limited
+NAVKARCORP,
+NAVNETEDUL,
+NAZARA,Nazara Technologies Limited
+NBCC,NBCC India Limited
+NBIFIN,
+NBVENTURES,
+NCC,NCC Limited
+NCLIND,
+NDGL,
+NDL,
+NDRAUTO,
+NDTV,New Delhi Television Limited
+NECCLTD,
+NECLIFE,
+NELCAST,
+NELCO,
+NEOGEN,
+NESCO,
+NESTLEIND,Nestlé India Limited
+NETWORK18,Network18 Media & Investments Limited
+NEULANDLAB,
+NEWGEN,Newgen Software Technologies Limited
+NEXTMEDIA,
+NFL,National Fertilizers Limited
+NH,
+NHPC,NHPC Limited
+NIACL,
+NIBL,
+NIITLTD,
+NILAINFRA,
+NILASPACES,
+NILKAMAL,Nilkamal Limited
+NIPPOBATRY,
+NIRAJ,
+NIRAJISPAT,
+NITCO,
+NITINFIRE,
+NITINSPIN,
+NITIRAJ,
+NKIND,
+NLCINDIA,NLC India Limited
+NMDC,NMDC Limited
+NOCIL,NOCIL Limited
+NOIDATOLL,
+NORBTEAEXP,
+NOVARTIND,
+NRAIL,
+NRBBEARING,
+NSIL,
+NTL,
+NTPC,NTPC Limited
+NUCLEUS,
+NURECA,
+NXTDIGITAL,
+OAL,
+OBEROIRLTY,Oberoi Realty Limited
+OCCL,
+OFSS,Oracle Financial Services Software Limited
+OIL,Oil India Limited
+OILCOUNTUB,
+OLECTRA,
+OMAXAUTO,
+OMAXE,Omaxe Limited
+OMINFRAL,
+OMKARCHEM,
+ONEPOINT,
+ONGC,Oil & Natural Gas Corporation Limited
+ONMOBILE,
+ONWARDTEC,
+OPTIEMUS,
+OPTOCIRCUI,
+ORBTEXP,
+ORCHPHARMA,
+ORICONENT,
+ORIENTABRA,
+ORIENTALTL,
+ORIENTBELL,
+ORIENTCEM,
+ORIENTELEC,
+ORIENTHOT,
+ORIENTLTD,
+ORIENTPPR,
+ORIENTREF,
+ORISSAMINE,
+ORTEL,
+ORTINLAB,
+OSWALAGRO,
+PAEL,
+PAGEIND,Page Industries Limited
+PAISALO,
+PALASHSECU,
+PALREDTEC,
+PANACEABIO,
+PANACHE,
+PANAMAPET,
+PARACABLES,
+PARAGMILK,
+PARSVNATH,Parsvnath Developers Limited
+PATELENG,
+PATINTLOG,
+PATSPINLTD,
+PBAINFRA,
+PCJEWELLER,PC Jeweller Limited
+PDMJEPAPER,
+PDSMFL,
+PEARLPOLY,
+PEL,Piramal Enterprises Limited
+PENIND,
+PENINLAND,
+PERSISTENT,Persistent Systems Limited
+PETRONET,Petronet LNG Limited
+PFC,Power Finance Corporation Limited
+PFIZER,Pfizer Limited
+PFOCUS,
+PFS,
+PGEL,
+PGHH,
+PGHL,
+PGIL,
+PHILIPCARB,
+PHOENIXLTD,
+PIDILITIND,Pidilite Industries Limited
+PIIND,
+PILANIINVS,
+PILITA,
+PIONDIST,
+PIONEEREMB,
+PITTIENG,
+PKTEA,
+PLASTIBLEN,
+PNB,Punjab National Bank
+PNBGILTS,
+PNBHOUSING,PNB Housing Finance Limited
+PNC,
+PNCINFRA,
+PODDARHOUS,
+PODDARMENT,
+POKARNA,
+POLYCAB,Polycab India Limited
+POLYMED,
+POLYPLEX,
+PONNIERODE,
+POWERGRID,Power Grid Corporation of India Limited
+POWERINDIA,
+POWERMECH,
+PPAP,
+PPL,
+PRAENG,
+PRAJIND,
+PRAKASH,
+PRAKASHSTL,
+PRAXIS,
+PRECAM,
+PRECOT,
+PRECWIRE,
+PREMEXPLN,
+PREMIER,
+PREMIERPOL,
+PRESSMN,
+PRESTIGE,Prestige Estates Projects Limited
+PRICOLLTD,
+PRIMESECU,
+PRINCEPIPE,
+PRIVISCL,
+PROINDIA,
+PROZONINTU,
+PRSMJOHNSN,
+PSB,Punjab & Sind Bank
+PSPPROJECT,
+PTC,PTC India Limited
+PTL,
+PUNJABCHEM,
+PUNJLLOYD,
+PURVA,
+PVR,PVR Limited
+QUESS,Quess Corp Limited
+QUICKHEAL,Quick Heal Technologies Limited
+RADAAN,
+RADICO,Radico Khaitan Limited
+RADIOCITY,
+RAILTEL,Railtel Corporation of India Limited
+RAIN,Rain Industries Limited
+RAJESHEXPO,
+RAJMET,
+RAJRATAN,
+RAJRAYON,
+RAJSREESUG,
+RAJTV,
+RALLIS,Rallis India Limited
+RAMANEWS,
+RAMASTEEL,
+RAMCOCEM,The Ramco Cements Limited
+RAMCOIND,
+RAMCOSYS,
+RAMKY,
+RANASUG,
+RANEENGINE,
+RANEHOLDIN,
+RATNAMANI,
+RAYMOND,Raymond Limited
+RBL,
+RBLBANK,RBL Bank Limited
+RCF,Rashtriya Chemicals & Fertilizers Limited
+RCOM,Reliance Communications Limited
+RECLTD,REC Limited
+REDINGTON,Redington India Limited
+REFEX,
+RELAXO,Relaxo Footwears Limited
+RELCAPITAL,Reliance Capital Limited
+RELIANCE,Reliance Industries Limited
+RELIGARE,Religare Enterprises Limited
+RELINFRA,Reliance Infrastructure Limited
+REMSONSIND,
+RENUKA,
+REPCOHOME,
+REPL,
+REPRO,
+RESPONIND,
+REVATHI,
+RGL,
+RHFL,
+RICOAUTO,
+RIIL,
+RITES,RITES Limited
+RKDL,
+RKEC,
+RKFORGE,
+RMCL,
+RML,
+RNAVAL,
+ROHLTD,
+ROLLT,
+ROLTA,
+ROML,
+ROSSARI,
+ROSSELLIND,
+ROUTE,
+RPGLIFE,
+RPOWER,Reliance Power Limited
+RPPINFRA,
+RPSGVENT,
+RSSOFTWARE,
+RSWM,
+RSYSTEMS,
+RTNINDIA,
+RTNPOWER,
+RUBYMILLS,
+RUCHI,
+RUCHINFRA,
+RUCHIRA,
+RUPA,
+RUSHIL,
+RVHL,
+RVNL,Rail Vikas Nigam Limited
+S&SPOWER,
+SABEVENTS,
+SADBHAV,
+SADBHIN,
+SAFARI,
+SAGARDEEP,
+SAGCEM,
+SAIL,Steel Authority of India Limited
+SAKAR,
+SAKHTISUG,
+SAKSOFT,
+SAKUMA,
+SALASAR,
+SALONA,
+SALSTEEL,
+SALZERELEC,
+SAMBHAAV,
+SANCO,
+SANDESH,
+SANDHAR,
+SANGAMIND,
+SANGHIIND,
+SANGHVIMOV,
+SANGINITA,
+SANOFI,Sanofi India Limited
+SANWARIA,
+SARDAEN,
+SAREGAMA,Saregama India Limited
+SARLAPOLY,
+SASKEN,
+SASTASUNDR,
+SATIA,
+SATIN,
+SBCL,
+SBICARD,SBI Cards and Payment Services Limited
+SBILIFE,SBI Life Insurance Company Limited
+SBIN,State Bank of India
+SCAPDVR,
+SCHAEFFLER,Schaeffler India Limited
+SCHAND,
+SCHNEIDER,Schneider Electric Infrastructure Limited
+SCI,Shipping Corporation Of India Limited
+SDBL,
+SEAMECLTD,
+SECURKLOUD,
+SELAN,
+SEPOWER,
+SEQUENT,
+SESHAPAPER,
+SETCO,
+SETUINFRA,
+SEYAIND,
+SFL,
+SGL,
+SHAKTIPUMP,
+SHALBY,Shalby Limited
+SHALPAINTS,
+SHANKARA,
+SHANTIGEAR,
+SHARDACROP,
+SHARDAMOTR,
+SHAREINDIA,
+SHEMAROO,Shemaroo Entertainment Limited
+SHIL,
+SHILPAMED,
+SHIVAMAUTO,
+SHIVAMILLS,
+SHIVATEX,
+SHK,
+SHOPERSTOP,Shoppers Stop Limited
+SHRADHA,
+SHREDIGCEM,
+SHREECEM,Shree Cement Limited
+SHREEPUSHK,
+SHREERAMA,
+SHRENIK,
+SHREYANIND,
+SHREYAS,
+SHRIPISTON,
+SHRIRAMCIT,Shriram City Union Finance Limited
+SHRIRAMEPC,
+SHYAMCENT,
+SHYAMMETL,
+SHYAMTEL,
+SICAGEN,
+SICAL,
+SIEMENS,Siemens Limited
+SIGIND,
+SIL,
+SILGO,
+SILINV,
+SILLYMONKS,
+SIMBHALS,
+SIMPLEXINF,
+SINTERCOM,
+SINTEX,
+SIRCA,
+SIS,SIS Limited
+SITINET,
+SIYSIL,
+SJVN,SJVN Limited
+SKFINDIA,SKF India Limited
+SKIL,
+SKIPPER,
+SKMEGGPROD,
+SMARTLINK,
+SMCGLOBAL,
+SMLISUZU,
+SMSLIFE,
+SMSPHARMA,
+SNOWMAN,
+SOBHA,Sobha Limited
+SOLARA,
+SOLARINDS,
+SOMANYCERA,
+SOMATEX,
+SOMICONVEY,
+SONACOMS,Sona BLW Precision Forgings Limited
+SONATSOFTW,Sonata Software Limited
+SORILINFRA,
+SOTL,
+SOUTHBANK,South Indian Bank Limited
+SOUTHWEST,
+SPAL,
+SPANDANA,
+SPARC,
+SPECIALITY,
+SPENCERS,Spencer's Retail Limited
+SPENTEX,
+SPIC,
+SPICEJET,SpiceJet Limited
+SPLIL,
+SPMLINFRA,
+SPTL,
+SREEL,
+SREINFRA,
+SRF,SRF Limited
+SRHHYPOLTD,
+SRIPIPES,
+SRPL,
+SRTRANSFIN,Shriram Transport Finance Company Limited
+SSWL,
+STAR,
+STARCEMENT,
+STARPAPER,
+STCINDIA,
+STEELCITY,
+STEELXIND,
+STEL,
+STERTOOLS,
+STLTECH,Sterlite Technologies Limited
+STOVEKRAFT,
+SUBCAPCITY,
+SUBEXLTD,
+SUBROS,
+SUDARSCHEM,
+SUMEETINDS,
+SUMICHEM,
+SUMIT,
+SUMMITSEC,
+SUNCLAYLTD,
+SUNDARAM,
+SUNDARMFIN,
+SUNDARMHLD,
+SUNDRMBRAK,
+SUNDRMFAST,
+SUNFLAG,
+SUNPHARMA,Sun Pharmaceutical Industries Limited
+SUNTECK,
+SUNTV,Sun TV Network Limited
+SUPERHOUSE,
+SUPERSPIN,
+SUPPETRO,
+SUPRAJIT,
+SUPREMEENG,
+SUPREMEIND,
+SURANASOL,
+SURANAT&P,
+SURYALAXMI,
+SURYAROSNI,
+SURYODAY,
+SUTLEJTEX,
+SUULD,
+SUVEN,
+SUVENPHAR,
+SUVIDHAA,
+SUZLON,Suzlon Energy Limited
+SWANENERGY,
+SWARAJENG,
+SWELECTES,
+SWSOLAR,
+SYMPHONY,Symphony Limited
+SYNGENE,Syngene International Limited
+TAINWALCHM,
+TAJGVK,
+TAKE,
+TALBROAUTO,
+TANLA,Tanla Platforms Limited
+TANTIACONS,
+TARAPUR,
+TARC,
+TARMAT,
+TASTYBITE,
+TATACHEM,Tata Chemicals Limited
+TATACOFFEE,Tata Coffee Limited
+TATACOMM,Tata Communications Limited
+TATACONSUM,Tata Consumer Products Limited
+TATAELXSI,Tata Elxsi Limited
+TATAINVEST,
+TATAMETALI,
+TATAMOTORS,Tata Motors Limited
+TATAMTRDVR,Tata Motors Limited
+TATAPOWER,The Tata Power Company Limited
+TATASTEEL,Tata Steel Limited
+TATASTLBSL,
+TATASTLLP,
+TBZ,Tribhovandas Bhimji Zaveri Limited
+TCI,Transport Corporation of India Limited
+TCIDEVELOP,
+TCIEXP,
+TCIFINANCE,
+TCNSBRANDS,
+TCPLPACK,
+TCS,Tata Consultancy Services Limited
+TDPOWERSYS,
+TEAMLEASE,TeamLease Services Limited
+TECHIN,
+TECHM,Tech Mahindra Limited
+TECHNOE,
+TEJASNET,
+TEMBO,
+TERASOFT,
+TEXINFRA,
+TEXMOPIPES,
+TEXRAIL,
+TFCILTD,
+TFL,
+TGBHOTELS,
+THANGAMAYL,
+THEINVEST,
+THEMISMED,
+THERMAX,Thermax Limited
+THOMASCOOK,Thomas Cook India Limited
+THOMASCOTT,
+THYROCARE,Thyrocare Technologies Limited
+TI,
+TIDEWATER,
+TIIL,
+TIINDIA,
+TIJARIA,
+TIL,
+TIMESGTY,
+TIMETECHNO,
+TIMKEN,
+TINPLATE,The Tinplate Company of India Limited
+TIPSINDLTD,
+TIRUMALCHM,
+TIRUPATIFL,
+TITAN,Titan Company Limited
+TMRVL,
+TNPETRO,
+TNPL,
+TNTELE,
+TOKYOPLAST,
+TORNTPHARM,Torrent Pharmaceuticals Limited
+TORNTPOWER,Torrent Power Limited
+TOTAL,
+TOUCHWOOD,
+TPLPLASTEH,
+TREEHOUSE,
+TREJHARA,
+TRENT,Trent Limited
+TRF,
+TRIDENT,Trident Limited
+TRIGYN,
+TRIL,
+TRITURBINE,
+TRIVENI,
+TTKHLTCARE,
+TTKPRESTIG,
+TTL,
+TTML,
+TV18BRDCST,TV18 Broadcast Limited
+TVSELECT,
+TVSMOTOR,TVS Motor Company Limited
+TVSSRICHAK,
+TVTODAY,
+TVVISION,
+TWL,
+UBL,United Breweries Limited
+UCALFUEL,
+UCOBANK,UCO Bank
+UFLEX,Uflex Limited
+UFO,
+UGARSUGAR,
+UJAAS,
+UJJIVAN,
+UJJIVANSFB,Ujjivan Small Finance Bank Limited
+ULTRACEMCO,UltraTech Cement Limited
+UMANGDAIRY,
+UMESLTD,
+UNICHEMLAB,
+UNIDT,
+UNIENTER,
+UNIONBANK,Union Bank of India
+UNITECH,Unitech Limited
+UNITEDTEA,
+UNIVASTU,
+UNIVCABLES,
+UNIVPHOTO,
+UPL,UPL Limited
+URJA,
+USHAMART,
+UTIAMC,UTI Asset Management Company Limited
+UTTAMSTL,
+UTTAMSUGAR,
+V2RETAIL,V2 Retail Limited
+VADILALIND,
+VAIBHAVGBL,
+VAISHALI,
+VAKRANGEE,Vakrangee Limited
+VALIANTORG,
+VARDHACRLC,
+VARDMNPOLY,
+VARROC,
+VASCONEQ,
+VASWANI,
+VBL,Varun Beverages Limited
+VEDL,Vedanta Limited
+VENKEYS,
+VENUSREM,
+VERTOZ,
+VESUVIUS,
+VETO,
+VGUARD,V-Guard Industries Limited
+VHL,
+VICEROY,
+VIDHIING,
+VIJIFIN,
+VIKASECO,
+VIKASLIFE,
+VIKASPROP,
+VIKASWSP,
+VIMTALABS,
+VINATIORGA,
+VINDHYATEL,
+VINEETLAB,
+VINYLINDIA,
+VIPCLOTHNG,
+VIPIND,
+VIPULLTD,
+VISAKAIND,
+VISASTEEL,
+VISHAL,
+VISHNU,
+VISHWARAJ,
+VIVIDHA,
+VIVIMEDLAB,
+VLSFINANCE,
+VMART,V-Mart Retail Limited
+VOLTAMP,
+VOLTAS,Voltas Limited
+VRLLOG,
+VSSL,
+VSTIND,
+VSTTILLERS,
+VTL,
+WABAG,
+WABCOINDIA,
+WALCHANNAG,
+WANBURY,
+WATERBASE,
+WEALTH,
+WEBELSOLAR,
+WEIZMANIND,
+WELCORP,
+WELENT,
+WELINV,
+WELSPUNIND,
+WENDT,
+WESTLIFE,Westlife Development Limited
+WHEELS,
+WHIRLPOOL,Whirlpool of India Limited
+WILLAMAGOR,
+WINDMACHIN,
+WIPL,
+WIPRO,Wipro Limited
+WOCKPHARMA,Wockhardt Limited
+WONDERLA,Wonderla Holidays Limited
+WORTH,
+WSI,
+WSTCSTPAPR,
+XCHANGING,
+XELPMOC,
+XPROINDIA,
+YAARII,
+YESBANK,Yes Bank Limited
+ZEEL,Zee Entertainment Enterprises Limited
+ZEELEARN,
+ZEEMEDIA,
+ZENITHEXPO,
+ZENSARTECH,Zensar Technologies Limited
+ZENTEC,
+ZODIACLOTH,
+ZODJRDMKJ,
+ZOTA,
+ZUARI,
+ZUARIGLOB,
+ZYDUSWELL,Zydus Wellness Limited
