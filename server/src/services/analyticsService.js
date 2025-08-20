@@ -1,5 +1,16 @@
+
 import path from 'path';
 import { readManifestRows, buildStockCsvPath, streamCsvRows, coerceNumber, coerceDate } from './csvUtils.js';
+import { 
+  computeRSI, 
+  computeMACD, 
+  computeBollingerBands, 
+  computeMovingAverages, 
+  computeVolumeAnalysis 
+} from './technicalIndicators.js';
+
+// In-memory cache for stock timeseries
+const stockTimeseriesCache = new Map();
 
 export async function loadManifestSymbols() {
   const rows = await readManifestRows();
@@ -22,6 +33,9 @@ export async function fuzzySearch(manifestSymbols, query) {
 }
 
 async function readStockTimeseries(stockName) {
+  if (stockTimeseriesCache.has(stockName)) {
+    return stockTimeseriesCache.get(stockName);
+  }
   const filePath = buildStockCsvPath(stockName);
   const rows = [];
   await streamCsvRows(filePath, (row) => {
@@ -40,7 +54,8 @@ async function readStockTimeseries(stockName) {
     }
   });
   rows.sort((a, b) => a.date - b.date);
-  console.log(`Stock: ${stockName}, file: ${filePath}, rows:`, rows.slice(0, 3), '... total:', rows.length);
+  stockTimeseriesCache.set(stockName, rows);
+  // Optionally, limit cache size or implement LRU if needed
   return rows;
 }
 
@@ -98,7 +113,6 @@ export async function computeTopFive(manifestSymbols) {
 }
 
 export async function computeAnalyticsGrid(manifestSymbols) {
-
   const concurrency = 12;
   // Cache for first 750 stocks
   const firstBatch = manifestSymbols.slice(0, 750);
@@ -218,6 +232,228 @@ export async function loadStockAnalytics(manifestSymbols, symbol) {
     sample: ts.slice(-30),
     timeseries: ts // full time series for charting
   };
+}
+
+// New technical indicator endpoints
+export async function getStockTechnicalIndicators(symbol) {
+  try {
+    const [rsi, macdRaw, bbRaw, maRaw, volume] = await Promise.all([
+      computeRSI(symbol),
+      computeMACD(symbol),
+      computeBollingerBands(symbol),
+      computeMovingAverages(symbol),
+      computeVolumeAnalysis(symbol)
+    ]);
+
+    // MACD values array for plotting
+    let macd = null;
+    if (macdRaw && macdRaw.macdLine && macdRaw.signalLine) {
+      macd = {
+        ...macdRaw,
+        values: macdRaw.macdLine.map((macdVal, i) => ({
+          macd: macdVal,
+          signal: macdRaw.signalLine[i],
+          histogram: macdRaw.histogram[i],
+          date: i // No date info, so use index
+        }))
+      };
+    }
+
+    // Bollinger Bands values array for plotting
+    let bollingerBands = null;
+    if (bbRaw && bbRaw.bands) {
+      bollingerBands = {
+        ...bbRaw,
+        values: bbRaw.bands.map(b => ({
+          upper: b.upperBand,
+          middle: b.sma,
+          lower: b.lowerBand,
+          bandwidth: b.bandwidth,
+          date: b.date // This is actually the close price, but no real date available
+        }))
+      };
+    }
+
+    // Moving Averages values array for plotting
+    let movingAverages = null;
+    if (maRaw && maRaw.movingAverages) {
+      // Compose a values array with all available periods (e.g., 20, 50, 200)
+      const periods = Object.keys(maRaw.movingAverages).map(Number).sort((a, b) => a - b);
+      // Use the longest period's ema array as the base for length
+      const basePeriod = periods[periods.length - 1];
+      const baseArr = maRaw.movingAverages[basePeriod]?.ema || [];
+      const values = baseArr.map((_, i) => {
+        const entry = { date: i };
+        periods.forEach(p => {
+          entry[`ma${p}`] = maRaw.movingAverages[p]?.ema[i] ?? null;
+        });
+        return entry;
+      });
+      movingAverages = {
+        ...maRaw,
+        values
+      };
+    }
+
+    return {
+      symbol,
+      rsi,
+      macd,
+      bollingerBands,
+      movingAverages,
+      volumeAnalysis: volume
+    };
+  } catch (error) {
+    console.error(`Error computing technical indicators for ${symbol}:`, error);
+    return null;
+  }
+}
+
+export async function getSectorHeatmap(manifestSymbols) {
+  const sample = manifestSymbols.slice(0, 100);
+  const concurrency = 12;
+  const sectorData = new Map();
+
+  for (let i = 0; i < sample.length; i += concurrency) {
+    const batch = sample.slice(i, i + concurrency);
+    const batchResults = await Promise.all(batch.map(async (s) => {
+      try {
+        const [ts, rsi] = await Promise.all([
+          readStockTimeseries(s.symbol),
+          computeRSI(s.symbol)
+        ]);
+        
+        const profitPercent = computeProfitPercent(ts);
+        const volatility = computeVolatility(ts);
+        
+        return {
+          symbol: s.symbol,
+          sector: s.sector || 'Unknown',
+          profitPercent,
+          volatility,
+          rsi: rsi?.current
+        };
+      } catch (error) {
+        return null;
+      }
+    }));
+
+    for (const result of batchResults.filter(Boolean)) {
+      const sector = result.sector;
+      if (!sectorData.has(sector)) {
+        sectorData.set(sector, {
+          sector,
+          stocks: [],
+          avgProfitPercent: 0,
+          avgVolatility: 0,
+          avgRSI: 0,
+          count: 0
+        });
+      }
+
+      const sectorInfo = sectorData.get(sector);
+      sectorInfo.stocks.push(result);
+      sectorInfo.count++;
+    }
+  }
+
+  // Calculate averages for each sector
+  for (const sectorInfo of sectorData.values()) {
+    const validStocks = sectorInfo.stocks.filter(s => 
+      s.profitPercent != null && s.volatility != null && s.rsi != null
+    );
+
+    if (validStocks.length > 0) {
+      sectorInfo.avgProfitPercent = validStocks.reduce((sum, s) => sum + s.profitPercent, 0) / validStocks.length;
+      sectorInfo.avgVolatility = validStocks.reduce((sum, s) => sum + s.volatility, 0) / validStocks.length;
+      sectorInfo.avgRSI = validStocks.reduce((sum, s) => sum + s.rsi, 0) / validStocks.length;
+    }
+  }
+
+  return Array.from(sectorData.values())
+    .filter(s => s.count > 0)
+    .sort((a, b) => b.avgProfitPercent - a.avgProfitPercent);
+}
+
+export async function getPerformanceComparison(symbols, timeframe = '30d') {
+  const results = [];
+  
+  for (const symbol of symbols) {
+    try {
+      const ts = await readStockTimeseries(symbol);
+      if (!ts || ts.length < 2) continue;
+
+      let startIndex = 0;
+      if (timeframe === '7d') startIndex = Math.max(0, ts.length - 7);
+      else if (timeframe === '30d') startIndex = Math.max(0, ts.length - 30);
+      else if (timeframe === '90d') startIndex = Math.max(0, ts.length - 90);
+
+      const relevantData = ts.slice(startIndex);
+      if (relevantData.length < 2) continue;
+
+      const first = relevantData[0];
+      const last = relevantData[relevantData.length - 1];
+      const profitPercent = ((last.close - first.close) / first.close) * 100;
+      const volatility = computeVolatility(relevantData);
+      const avgVolume = computeAverageVolume(relevantData);
+
+      results.push({
+        symbol,
+        profitPercent,
+        volatility,
+        avgVolume,
+        startPrice: first.close,
+        endPrice: last.close,
+        dataPoints: relevantData.length
+      });
+    } catch (error) {
+      console.error(`Error processing ${symbol}:`, error);
+    }
+  }
+
+  return results.sort((a, b) => b.profitPercent - a.profitPercent);
+}
+
+export async function getOHLCData(symbol, startDate = null, endDate = null, limit = 100) {
+  try {
+    const ts = await readStockTimeseries(symbol);
+    if (!ts || ts.length === 0) return null;
+
+    let filteredData = ts;
+
+    // Apply date filtering if provided
+    if (startDate) {
+      const start = new Date(startDate);
+      filteredData = filteredData.filter(row => row.date >= start);
+    }
+    if (endDate) {
+      const end = new Date(endDate);
+      filteredData = filteredData.filter(row => row.date <= end);
+    }
+
+    // Apply limit and return OHLC format
+    const ohlcData = filteredData
+      .slice(-limit)
+      .map(row => ({
+        date: row.date,
+        open: row.open,
+        high: row.high,
+        low: row.low,
+        close: row.close,
+        volume: row.volume
+      }));
+
+    return {
+      symbol,
+      data: ohlcData,
+      count: ohlcData.length,
+      startDate: ohlcData[0]?.date,
+      endDate: ohlcData[ohlcData.length - 1]?.date
+    };
+  } catch (error) {
+    console.error(`Error getting OHLC data for ${symbol}:`, error);
+    return null;
+  }
 }
 
 
