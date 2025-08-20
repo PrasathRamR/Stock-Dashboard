@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: finapp-backend-config
+  labels:
+    app: finapp-backend
+data:
+  ROOT_PATH: "/data/SCRIP"
+  MANIFEST_PATH: "/data/manifest.csv"
+  PORT: "4000"

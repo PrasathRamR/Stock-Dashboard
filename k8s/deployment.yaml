@@ -1,52 +1,30 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: finapp-backend
+  name: findash-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: finapp-backend
+      app: findash-app
   template:
     metadata:
       labels:
-        app: finapp-backend
+        app: findash-app
     spec:
       containers:
-        - name: backend
-          image: finapp:latest
-          imagePullPolicy: IfNotPresent
+        - name: findash-app
+          image: rpstram/findash:latest
           ports:
             - containerPort: 4000
-          env:
-            - name: ROOT_PATH
-              valueFrom:
-                secretKeyRef:
-                  name: finapp-env
-                  key: ROOT_PATH
-            - name: MANIFEST_PATH
-              valueFrom:
-                secretKeyRef:
-                  name: finapp-env
-                  key: MANIFEST_PATH
+            - containerPort: 5173
+          envFrom:
+            - configMapRef:
+                name: finapp-backend-config
           volumeMounts:
-            - name: csvs
-              mountPath: /data/csvs
+            - name: datasets
+              mountPath: /data
       volumes:
-        - name: csvs
+        - name: datasets
           persistentVolumeClaim:
-            claimName: finapp-pvc
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: finapp-svc
-spec:
-  selector:
-    app: finapp-backend
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 4000
-
-
+            claimName: finapp-dataset-pvc

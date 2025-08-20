@@ -5,17 +5,20 @@ import csv from 'csv-parser';
 
 
 function getRootPath() {
-  return "c:\\Prasath\\Interview_project\\Datasets\\SCRIP";
+  // Prefer env var, fallback to local dev default
+  return process.env.ROOT_PATH || "Datasets/SCRIP";
 }
 
-console.log(process.env.ROOT_PATH);
-
 function getManifestPath() {
-  return "c:\\Prasath\\Interview_project\\Datasets\\manifest.csv";
+  // Prefer env var, fallback to local dev default
+  return process.env.MANIFEST_PATH || "Datasets/manifest.csv";
 }
 
 function logEnv() {
-  console.log('ROOT_PATH:',getRootPath(), 'MANIFEST_PATH:', getManifestPath());
+  console.log('[DEBUG] process.env.ROOT_PATH:', process.env.ROOT_PATH);
+  console.log('[DEBUG] process.env.MANIFEST_PATH:', process.env.MANIFEST_PATH);
+  console.log('[DEBUG] getRootPath():', getRootPath());
+  console.log('[DEBUG] getManifestPath():', getManifestPath());
 }
 logEnv();
 

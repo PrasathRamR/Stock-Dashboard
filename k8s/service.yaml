@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: findash-service
+spec:
+  type: NodePort
+  selector:
+    app: findash-app
+  ports:
+    - name: backend
+      port: 4000
+      targetPort: 4000
+      nodePort: 32000
+    - name: frontend
+      port: 5173
+      targetPort: 5173
+      nodePort: 32001

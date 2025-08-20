@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: finapp-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: finapp-backend
+  template:
+    metadata:
+      labels:
+        app: finapp-backend
+    spec:
+      nodeSelector:
+        role: backend
+      containers:
+        - name: backend
+          image: rpstram/finapp-backend:latest
+          ports:
+            - containerPort: 4000
+          envFrom:
+            - configMapRef:
+                name: finapp-backend-config
+          volumeMounts:
+            - name: dataset-volume
+              mountPath: /data
+      volumes:
+        - name: dataset-volume
+          persistentVolumeClaim:
+            claimName: finapp-dataset-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: finapp-backend
+spec:
+  selector:
+    app: finapp-backend
+  ports:
+    - protocol: TCP
+      port: 4000
+      targetPort: 4000
+  type: ClusterIP

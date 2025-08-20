@@ -1,3 +1,101 @@
+# Docker Usage Guide
+
+This guide explains how to build, run, and access the FinAPP project using Docker.
+
+## Prerequisites
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
+- (Optional) [Docker Hub](https://hub.docker.com/) account for pulling/pushing images
+
+## 1. Build the Docker Image
+
+Open a terminal in the project root directory and run:
+
+```
+docker build -t yourdockerhubusername/finapp .
+```
+Replace `yourdockerhubusername` with your Docker Hub username, or use any local tag you prefer.
+
+## 2. Prepare Your Data
+
+Make sure your `Datasets` folder is in the project root and contains all required CSV files.
+
+## 3. Run the Docker Container
+
+Run the following command from your project root:
+
+```
+docker run --env-file ./server/.env.docker -e NODE_OPTIONS=--max-old-space-size=4096 -p 4000:4000 -p 5173:5173 -v "%cd%/Datasets:/data" --name finapp yourdockerhubusername/finapp
+```
+
+- `--env-file ./server/.env.docker` loads environment variables for Docker.
+- `-e NODE_OPTIONS=--max-old-space-size=4096` increases Node.js memory limit.
+- `-p 4000:4000` exposes backend API on port 4000.
+- `-p 5173:5173` exposes frontend on port 5173.
+- `-v "%cd%/Datasets:/data"` mounts your local `Datasets` folder into the container.
+- `--name finapp` names your container.
+
+**Note:**  
+On Windows CMD, use `%cd%` for the current directory.  
+On PowerShell, use `${PWD}`.
+
+## 4. Access the Application
+
+- **Frontend:** [http://localhost:5173](http://localhost:5173)
+- **Backend API:** [http://localhost:4000](http://localhost:4000)
+
+## 5. Stopping and Removing the Container
+
+To stop and remove the container:
+
+```
+docker stop finapp
+docker rm finapp
+```
+
+## 6. (Optional) Push to Docker Hub
+
+1. Log in:
+	```
+	docker login
+	```
+2. Tag your image:
+	```
+	docker tag finapp yourdockerhubusername/finapp:latest
+	```
+3. Push:
+	```
+	docker push yourdockerhubusername/finapp:latest
+	```
+
+## Troubleshooting
+
+- **Port already in use:** Stop any process using the port or change the port mapping.
+- **Data not loading:** Ensure your `Datasets` folder is correctly mounted and `.env.docker` paths match `/data/...`.
+- **Out of memory:** Increase the `NODE_OPTIONS` memory limit as shown above.
+
+# Unified Single-Node/Single-Container Architecture
+
+This app now runs both the backend (Node.js API) and frontend (React app) together in a single container and can be deployed on a single node. All backend API logic, async CSV processing, technical indicators, and frontend React components are bundled and served from one place.
+
+**Kubernetes resources:**
+- `k8s/deployment.yaml`: Unified deployment for both backend and frontend
+- `k8s/pvc.yaml`: PersistentVolumeClaim for datasets
+- `k8s/configmap.yaml`: Environment variables for backend
+
+**Deployment steps:**
+1. Apply PVC and ConfigMap:
+	```
+	kubectl apply -f k8s/pvc.yaml
+	kubectl apply -f k8s/configmap.yaml
+	```
+2. Deploy the unified app:
+	```
+	kubectl apply -f k8s/deployment.yaml
+	```
+3. Expose the service as needed (LoadBalancer/Ingress for production).
+
+See [`k8s/architecture.md`](k8s/architecture.md) for a diagram, local vs K8s comparison, and troubleshooting tips.
 # FinAPP — Advanced Async NSE CSV Analytics (Local-only)
 
 FinAPP is a modern, fully asynchronous Node.js + React app for advanced NSE stock analytics using only local CSV files. No external APIs are used.
@@ -6,7 +104,7 @@ FinAPP is a modern, fully asynchronous Node.js + React app for advanced NSE stoc
 - Async CSV ingestion via streams for manifest and per-stock files
 - Advanced technical indicators: RSI, MACD, Bollinger Bands, Moving Averages
 - Non-blocking backend endpoints for search, analytics, and technical analysis
-- React frontend with interactive charts, sector heatmaps, and performance comparison
+- React frontend with interactive charts and performance comparison
 - Single Docker image (frontend build + backend runtime)
 - Kubernetes manifests for scalable deployment
 
@@ -39,7 +137,7 @@ Missing fields are handled gracefully.
 
 ### Analytics Service (`server/src/services/analyticsService.js`)
 - Enhanced with technical indicator integration
-- Sector heatmap generation with RSI, volatility, and profit metrics
+- Multi-metric analytics grid with RSI, volatility, and profit metrics
 - Performance comparison across multiple stocks and timeframes
 - OHLC data extraction with date filtering and pagination
 
@@ -52,7 +150,6 @@ Missing fields are handled gracefully.
 - `GET /api/stock/:symbol/bollinger-bands?period=20&stdDev=2` - Bollinger Bands with custom parameters
 
 #### Advanced Analytics
-- `GET /api/sector-heatmap` - Sector performance heatmap with technical metrics
 - `GET /api/performance-comparison?symbols=RELIANCE,TCS&timeframe=30d` - Multi-stock comparison
 - `GET /api/stock/:symbol/ohlc?startDate=&endDate=&limit=100` - OHLC data with filtering
 
@@ -72,7 +169,6 @@ Missing fields are handled gracefully.
 
 ### Core Components
 - **StockAnalyticsDetails**: Comprehensive stock analysis with technical indicators
-- **SectorHeatmap**: Interactive sector performance visualization
 - **PerformanceComparison**: Multi-stock comparison with charts and controls
 
 ### Technical Indicator Widgets
@@ -89,26 +185,48 @@ Missing fields are handled gracefully.
 - **Responsive Design**: Mobile-friendly chart layouts
 
 ### Navigation & UX
-- **Multi-View Navigation**: Dashboard, Stock Details, Sector Heatmap, Performance Comparison
+- **Multi-View Navigation**: Dashboard, Stock Details, Performance Comparison
 - **Search Integration**: Debounced search with real-time results
 - **Stock Selection**: Click-to-view stock details from any list
 - **Loading States**: Graceful loading and error handling throughout
 
-## Local Development
-```
-# Terminal 1 - Backend
-cd server && npm install && npm run dev
 
-# Terminal 2 - Frontend
-cd client && npm install && npm run dev
-```
-Frontend proxies `/api` to `http://localhost:4000`.
+## Developer Onboarding
+
+This project uses **Node.js** for both backend and frontend. All dependencies are managed via `package.json` files in the `server` and `client` directories. No `requirements.txt` is needed.
+
+### Quick Start
+1. **Clone the repository**
+2. **Install dependencies:**
+	 - Backend:
+		 ```
+		 cd server
+		 npm install
+		 ```
+	 - Frontend:
+		 ```
+		 cd client
+		 npm install
+		 ```
+3. **Run in development mode:**
+	 - Backend:
+		 ```
+		 npm run dev
+		 ```
+	 - Frontend:
+		 ```
+		 npm run dev
+		 ```
+
+The frontend will proxy `/api` requests to `http://localhost:4000` by default.
+
+**Note:** If you are using Docker or Kubernetes, dependency installation is handled automatically during the build process.
 
 ## Docker
 Build and run single image (serves API on :4000 and static frontend):
 ```
-docker build -t finapp .
-docker run --rm -p 4000:4000 --env-file .env -v "C:\\Prasath\\FinProj\\Datasets":/data finapp
+docker build -t findash .
+docker run --rm -p 4000:4000 --env-file .env -v "C:\\Prasath\\FinProj\\Datasets":/data findash
 ```
 Ensure `.env` paths refer to host-mounted CSVs. On Linux/Mac, adjust paths accordingly.
 
@@ -157,7 +275,7 @@ Expose via a LoadBalancer/Ingress as needed. Set Secret values to your cluster p
 
 ## Version 2.0 Features
 - Advanced technical indicators (RSI, MACD, Bollinger Bands, Moving Averages)
-- Sector performance heatmaps with technical metrics
+- Hoverable info icons for all metrics, explaining calculation methods
 - Multi-stock performance comparison with interactive charts
 - Enhanced stock analytics with comprehensive technical analysis
 - Improved UI/UX with navigation and responsive design
